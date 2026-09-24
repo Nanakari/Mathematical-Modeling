@@ -1,0 +1,10 @@
+{
+  "selected_minus_original": 0.03296703296703296,
+  "95_percentile_interval": [
+    0.0013561868593761157,
+    0.06521646085774596
+  ],
+  "repeats": 500,
+  "video_clusters": 239,
+  "accounts_for_model_selection": false
+}

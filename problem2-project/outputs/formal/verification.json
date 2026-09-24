@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "frozen_hashes": "matched",
+  "split_id_and_video_overlap": false,
+  "metric_rows": 1183,
+  "scenarios": 169,
+  "model_groups": 7,
+  "special_rows": 30,
+  "reload_classes_exact_match": true,
+  "reload_max_absolute_difference": 1.033846408482475e-07,
+  "reload_absolute_tolerance": 1e-06,
+  "bootstrap_repeats": 500,
+  "video_clusters": 381,
+  "full_logs_checked": true,
+  "sample_model_case_predictions": 860041,
+  "mask_records": 122863,
+  "recomputed_metrics_match": true,
+  "nested_intervals_verified": true
+}

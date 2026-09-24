@@ -1,0 +1,78 @@
+[
+  {
+    "stage": "tiny_text",
+    "seed_accuracy_mean": 0.5927197802197802,
+    "seed_accuracy_std": 0.0009713005236078916,
+    "metrics": {
+      "accuracy": 0.5975274725274725,
+      "f1_macro": 0.5310627854745502,
+      "f1_weighted": 0.5675643594236031,
+      "f1_per_class": [
+        0.625,
+        0.277992277992278,
+        0.6901960784313725
+      ],
+      "mae": 0.6682443457763069,
+      "pearson": 0.5488999438321711,
+      "neutral_recall": 0.1956521739130435,
+      "opposite_sign_count": 21
+    }
+  },
+  {
+    "stage": "mini_text",
+    "seed_accuracy_mean": 0.6167582417582418,
+    "seed_accuracy_std": 0.0019426010472157831,
+    "metrics": {
+      "accuracy": 0.625,
+      "f1_macro": 0.5686968640635977,
+      "f1_weighted": 0.6011110749187227,
+      "f1_per_class": [
+        0.6361323155216285,
+        0.35766423357664234,
+        0.7122940430925222
+      ],
+      "mae": 0.645468942206967,
+      "pearson": 0.584135031001362,
+      "neutral_recall": 0.266304347826087,
+      "opposite_sign_count": 31
+    }
+  },
+  {
+    "stage": "mini_temporal",
+    "seed_accuracy_mean": 0.6215659340659341,
+    "seed_accuracy_std": 0.004856502618039458,
+    "metrics": {
+      "accuracy": 0.6167582417582418,
+      "f1_macro": 0.5512797538964175,
+      "f1_weighted": 0.5875842747843504,
+      "f1_per_class": [
+        0.6318407960199005,
+        0.3106060606060606,
+        0.7113924050632912
+      ],
+      "mae": 0.6351749172644015,
+      "pearson": 0.6067196226979266,
+      "neutral_recall": 0.22282608695652173,
+      "opposite_sign_count": 33
+    }
+  },
+  {
+    "stage": "mini_mag",
+    "seed_accuracy_mean": 0.625,
+    "seed_accuracy_std": 0.0,
+    "metrics": {
+      "accuracy": 0.6263736263736264,
+      "f1_macro": 0.577439488256796,
+      "f1_weighted": 0.6082065923388531,
+      "f1_per_class": [
+        0.6259541984732825,
+        0.3904109589041096,
+        0.7159533073929961
+      ],
+      "mae": 0.6386348430865577,
+      "pearson": 0.5971197244577551,
+      "neutral_recall": 0.30978260869565216,
+      "opposite_sign_count": 27
+    }
+  }
+]

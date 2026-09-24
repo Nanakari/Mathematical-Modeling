@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "metric_rows_recomputed": 96,
+  "sample_case_predictions_checked": 69888,
+  "neural_candidates_checked": 9,
+  "linear_candidates_checked": 9,
+  "old_balanced_seed17_control_reproduced": true,
+  "encoder_update_controls_passed": true,
+  "selected_model": "neural",
+  "complete_validation_accuracy": 0.6112637362637363,
+  "target_met_on_selection_validation": false,
+  "official_test_evaluated": false,
+  "special_rows": 30,
+  "reload_max_difference": 0.0
+}

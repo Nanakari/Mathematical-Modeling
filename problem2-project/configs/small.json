@@ -1,0 +1,27 @@
+{
+  "seed": 20260923,
+  "device": "cpu",
+  "threads": 2,
+  "data": {
+    "adapter": "workflow_data:AlignedAdapter",
+    "feature_path": "../E题/E题数据/附件2-数据集特征文件/aligned_50.pkl",
+    "special_folder": "../E题/E题数据/附件3-模态缺失特征样本/对齐版本",
+    "train_limit": 512,
+    "valid_limit": 128,
+    "special_token_ids": []
+  },
+  "preprocessor": {"name": "masked_standard"},
+  "training": {"epochs": 8, "patience": 3, "batch_size": 32, "learning_rate": 0.001},
+  "loss": {"name": "joint", "class_weight": 1.0, "regression_weight": 1.0, "regression": "huber"},
+  "augmentation": {"name": "workflow_data:MixedMissingDataset", "probability": 0.5, "rates": [0.1, 0.3, 0.5]},
+  "model": {"hidden": 32, "text": {"name": "embedding", "vocab_size": 32768}, "sequence": {"name": "temporal_conv", "kernel_size": 3}, "fusion": {"name": "gated"}},
+  "experiments": [
+    {"name": "clean_concat", "augment": false, "fusion": "concat"},
+    {"name": "augmented_concat", "augment": true, "fusion": "concat"},
+    {"name": "augmented_gated", "augment": true, "fusion": "gated"}
+  ],
+  "validation": {"seeds": [17], "rates": [0.1, 0.3, 0.5], "selection_scenarios": ["complete", "17|random|text+audio+vision|0.3"]},
+  "selection": {"name": "workflow_data:SelectionScore", "mae_weight": 1.0, "f1_penalty_weight": 1.0},
+  "export": {"name": "workflow_data:DraftExporter"},
+  "output": "outputs/end_to_end_small"
+}

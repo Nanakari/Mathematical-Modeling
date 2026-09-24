@@ -1,0 +1,11 @@
+{
+  "test_n": 727,
+  "scenario_count": 169,
+  "model_groups": 7,
+  "metric_rows": 1183,
+  "special_n": 30,
+  "seconds": 296.7299499511719,
+  "selection_hash": "d3b74a92437405ff4888bab6c2ecdbbc41bf2226e1425410769028b4596602ca",
+  "test_policy": "single frozen independent evaluation",
+  "output_id_policy": "source filename plus within-file index; no original video ID supplied"
+}

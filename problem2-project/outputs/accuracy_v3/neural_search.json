@@ -1,0 +1,290 @@
+[
+  {
+    "name": "frozen_g0.0",
+    "gamma": 0.0,
+    "frozen": true,
+    "lr": 0.0,
+    "epoch": 9,
+    "metrics": {
+      "accuracy": 0.592032967032967,
+      "f1_macro": 0.5231084867828467,
+      "f1_weighted": 0.5588064276843941,
+      "f1_per_class": [
+        0.5990566037735849,
+        0.2892561983471074,
+        0.6810126582278481
+      ],
+      "mae": 0.6972705594335611,
+      "pearson": 0.4681227551690349,
+      "neutral_recall": 0.19021739130434784,
+      "opposite_sign_count": 54
+    },
+    "checkpoint": "candidates/frozen_g0.0.pt",
+    "checkpoint_sha256": "375c34c2fd0a3e33e59e87aa19115ff3819658c5e13e8d2b9ad379f43364eb70",
+    "epochs_run": 12,
+    "seconds": 22.950473070144653,
+    "initial_encoder_sha256": "7fb69ad9f6866d8983183c930e33828f326470bf6ad8bbb2ad4ed957a92e9414",
+    "max_embedding_change": 0.0,
+    "class_weights": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "frozen_g0.5",
+    "gamma": 0.5,
+    "frozen": true,
+    "lr": 0.0,
+    "epoch": 7,
+    "metrics": {
+      "accuracy": 0.5865384615384616,
+      "f1_macro": 0.5350416561707326,
+      "f1_weighted": 0.5653815065297664,
+      "f1_per_class": [
+        0.5986696230598669,
+        0.33707865168539325,
+        0.6693766937669376
+      ],
+      "mae": 0.6999736996060544,
+      "pearson": 0.45795611693337607,
+      "neutral_recall": 0.24456521739130435,
+      "opposite_sign_count": 34
+    },
+    "checkpoint": "candidates/frozen_g0.5.pt",
+    "checkpoint_sha256": "b1b9e2652241fb1b9c27a36b74a2408bb3514a9c90ccc8cd6cae0168aecdf952",
+    "epochs_run": 11,
+    "seconds": 23.240108251571655,
+    "initial_encoder_sha256": "7fb69ad9f6866d8983183c930e33828f326470bf6ad8bbb2ad4ed957a92e9414",
+    "max_embedding_change": 0.0,
+    "class_weights": [
+      1.097310185432434,
+      1.2393901348114014,
+      0.8349960446357727
+    ]
+  },
+  {
+    "name": "frozen_g1.0",
+    "gamma": 1.0,
+    "frozen": true,
+    "lr": 0.0,
+    "epoch": 7,
+    "metrics": {
+      "accuracy": 0.5508241758241759,
+      "f1_macro": 0.5307551441506665,
+      "f1_weighted": 0.5508578268286478,
+      "f1_per_class": [
+        0.5763440860215053,
+        0.39664804469273746,
+        0.6192733017377567
+      ],
+      "mae": 0.700747939568668,
+      "pearson": 0.4569061858447384,
+      "neutral_recall": 0.3858695652173913,
+      "opposite_sign_count": 58
+    },
+    "checkpoint": "candidates/frozen_g1.0.pt",
+    "checkpoint_sha256": "c3ddf7194205fa2aaf759b6abd2e41da1b5eb2573deaa235d69e3a68c9d5b956",
+    "epochs_run": 11,
+    "seconds": 22.381370067596436,
+    "initial_encoder_sha256": "7fb69ad9f6866d8983183c930e33828f326470bf6ad8bbb2ad4ed957a92e9414",
+    "max_embedding_change": 0.0,
+    "class_weights": [
+      1.1702860593795776,
+      1.4929639101028442,
+      0.6776447296142578
+    ]
+  },
+  {
+    "name": "finetuned_g0.0_lr2e-05",
+    "gamma": 0.0,
+    "frozen": false,
+    "lr": 2e-05,
+    "epoch": 9,
+    "metrics": {
+      "accuracy": 0.6057692307692307,
+      "f1_macro": 0.5491096106767749,
+      "f1_weighted": 0.5821469087060771,
+      "f1_per_class": [
+        0.6157407407407407,
+        0.3358208955223881,
+        0.6957671957671958
+      ],
+      "mae": 0.672098949085921,
+      "pearson": 0.5276850319888644,
+      "neutral_recall": 0.24456521739130435,
+      "opposite_sign_count": 25
+    },
+    "checkpoint": "candidates/finetuned_g0.0_lr2e-05.pt",
+    "checkpoint_sha256": "444a898e55b987ac9da581c2ce04fd570ad9df234cff691e9c6d4ead2468a45d",
+    "epochs_run": 12,
+    "seconds": 120.16336584091187,
+    "initial_encoder_sha256": "7fb69ad9f6866d8983183c930e33828f326470bf6ad8bbb2ad4ed957a92e9414",
+    "max_embedding_change": 0.005344156175851822,
+    "class_weights": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "finetuned_g0.0_lr5e-05",
+    "gamma": 0.0,
+    "frozen": false,
+    "lr": 5e-05,
+    "epoch": 6,
+    "metrics": {
+      "accuracy": 0.6112637362637363,
+      "f1_macro": 0.5562374027101615,
+      "f1_weighted": 0.5882759547191002,
+      "f1_per_class": [
+        0.6238095238095238,
+        0.34686346863468637,
+        0.6980392156862745
+      ],
+      "mae": 0.667933602863411,
+      "pearson": 0.5517665035856448,
+      "neutral_recall": 0.2554347826086957,
+      "opposite_sign_count": 22
+    },
+    "checkpoint": "candidates/finetuned_g0.0_lr5e-05.pt",
+    "checkpoint_sha256": "9e7f884fe3d86f2e4125c51e4ea4ce23d8e0897ee0a71ab2a4ac855ef6f9e50b",
+    "epochs_run": 10,
+    "seconds": 99.53249311447144,
+    "initial_encoder_sha256": "7fb69ad9f6866d8983183c930e33828f326470bf6ad8bbb2ad4ed957a92e9414",
+    "max_embedding_change": 0.009658172726631165,
+    "class_weights": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "finetuned_g0.5_lr2e-05",
+    "gamma": 0.5,
+    "frozen": false,
+    "lr": 2e-05,
+    "epoch": 10,
+    "metrics": {
+      "accuracy": 0.5989010989010989,
+      "f1_macro": 0.5579876804745763,
+      "f1_weighted": 0.5861409994309986,
+      "f1_per_class": [
+        0.6070588235294118,
+        0.38283828382838286,
+        0.6840659340659341
+      ],
+      "mae": 0.675630552223423,
+      "pearson": 0.5318058387649708,
+      "neutral_recall": 0.31521739130434784,
+      "opposite_sign_count": 28
+    },
+    "checkpoint": "candidates/finetuned_g0.5_lr2e-05.pt",
+    "checkpoint_sha256": "5a19a1615ce38fda6dfd841c3d54b0931b44056181c49897a0b281f15cb3ea19",
+    "epochs_run": 12,
+    "seconds": 114.70662927627563,
+    "initial_encoder_sha256": "7fb69ad9f6866d8983183c930e33828f326470bf6ad8bbb2ad4ed957a92e9414",
+    "max_embedding_change": 0.0060106441378593445,
+    "class_weights": [
+      1.097310185432434,
+      1.2393901348114014,
+      0.8349960446357727
+    ]
+  },
+  {
+    "name": "finetuned_g0.5_lr5e-05",
+    "gamma": 0.5,
+    "frozen": false,
+    "lr": 5e-05,
+    "epoch": 6,
+    "metrics": {
+      "accuracy": 0.6016483516483516,
+      "f1_macro": 0.5775802953891374,
+      "f1_weighted": 0.5991623078045861,
+      "f1_per_class": [
+        0.6205250596658711,
+        0.43874643874643876,
+        0.673469387755102
+      ],
+      "mae": 0.6695769121819227,
+      "pearson": 0.5486043129384265,
+      "neutral_recall": 0.41847826086956524,
+      "opposite_sign_count": 11
+    },
+    "checkpoint": "candidates/finetuned_g0.5_lr5e-05.pt",
+    "checkpoint_sha256": "e5c66491c077256a4a00cd4b1d732e36ebb4cb2ceede3f780ca443039b9a2cfa",
+    "epochs_run": 10,
+    "seconds": 94.33468723297119,
+    "initial_encoder_sha256": "7fb69ad9f6866d8983183c930e33828f326470bf6ad8bbb2ad4ed957a92e9414",
+    "max_embedding_change": 0.009672991931438446,
+    "class_weights": [
+      1.097310185432434,
+      1.2393901348114014,
+      0.8349960446357727
+    ]
+  },
+  {
+    "name": "finetuned_g1.0_lr2e-05",
+    "gamma": 1.0,
+    "frozen": false,
+    "lr": 2e-05,
+    "epoch": 12,
+    "metrics": {
+      "accuracy": 0.5892857142857143,
+      "f1_macro": 0.5715103183449806,
+      "f1_weighted": 0.5929917709684831,
+      "f1_per_class": [
+        0.6019417475728155,
+        0.44387755102040816,
+        0.6687116564417178
+      ],
+      "mae": 0.6736403564093533,
+      "pearson": 0.5417704458040439,
+      "neutral_recall": 0.47282608695652173,
+      "opposite_sign_count": 21
+    },
+    "checkpoint": "candidates/finetuned_g1.0_lr2e-05.pt",
+    "checkpoint_sha256": "faf2772ec6bdafd5b0326bb64c82a33204e414dc657b31cd135ab480ea128830",
+    "epochs_run": 12,
+    "seconds": 112.06939888000488,
+    "initial_encoder_sha256": "7fb69ad9f6866d8983183c930e33828f326470bf6ad8bbb2ad4ed957a92e9414",
+    "max_embedding_change": 0.00708332285284996,
+    "class_weights": [
+      1.1702860593795776,
+      1.4929639101028442,
+      0.6776447296142578
+    ]
+  },
+  {
+    "name": "finetuned_g1.0_lr5e-05",
+    "gamma": 1.0,
+    "frozen": false,
+    "lr": 5e-05,
+    "epoch": 8,
+    "metrics": {
+      "accuracy": 0.5824175824175825,
+      "f1_macro": 0.5578509942511088,
+      "f1_weighted": 0.5812658880563261,
+      "f1_per_class": [
+        0.5985748218527316,
+        0.41225626740947074,
+        0.6627218934911243
+      ],
+      "mae": 0.6760945902359519,
+      "pearson": 0.5543162833056029,
+      "neutral_recall": 0.40217391304347827,
+      "opposite_sign_count": 21
+    },
+    "checkpoint": "candidates/finetuned_g1.0_lr5e-05.pt",
+    "checkpoint_sha256": "b0415e1ddae973e381e4c0c8559dd8f8b157c290c6b2c42472a70e267452e501",
+    "epochs_run": 12,
+    "seconds": 118.84874725341797,
+    "initial_encoder_sha256": "7fb69ad9f6866d8983183c930e33828f326470bf6ad8bbb2ad4ed957a92e9414",
+    "max_embedding_change": 0.010862354189157486,
+    "class_weights": [
+      1.1702860593795776,
+      1.4929639101028442,
+      0.6776447296142578
+    ]
+  }
+]

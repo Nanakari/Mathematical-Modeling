@@ -1,0 +1,39 @@
+{
+  "output": "outputs/temporal_v4",
+  "stages": [
+    "tiny_text",
+    "mini_text",
+    "mini_temporal",
+    "mini_mag"
+  ],
+  "seeds": [
+    1729,
+    2027
+  ],
+  "tiny_encoder": "models/bert_tiny",
+  "mini_encoder": "models/bert_mini",
+  "threads": 4,
+  "encoder_learning_rate": 5e-05,
+  "head_learning_rate": 0.0005,
+  "epochs": 10,
+  "patience": 3,
+  "batch_size": 64,
+  "dropout": 0.2,
+  "weight_decay": 0.01,
+  "gamma": 0.0,
+  "regression_loss_weight": 0.2,
+  "clean_probability": 0.6,
+  "augmentation_seed": 17,
+  "augmentation_rates": [
+    0.1,
+    0.3,
+    0.5
+  ],
+  "validation_mask_seed": 101,
+  "temporal_width": 32,
+  "mag_beta": 0.1,
+  "selection": "Complete official validation three-class Accuracy, then Macro-F1, then lower MAE. Select epoch within each seed; average both fixed seeds for each architecture; select architecture by ensemble metric, keeping accuracy_v3 if no improvement.",
+  "validation_policy": "Previously used validation selects epochs and architecture, so scores and bootstrap intervals are descriptive and selection-biased, not independent test estimates.",
+  "test_policy": "Do not evaluate official test or use its labels; extract train and valid only from combined competition pickle.",
+  "target": 0.7
+}

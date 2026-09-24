@@ -1,0 +1,202 @@
+[
+  {
+    "name": "tiny_text_seed1729",
+    "stage": "tiny_text",
+    "seed": 1729,
+    "epoch": 7,
+    "metrics": {
+      "accuracy": 0.592032967032967,
+      "f1_macro": 0.526860344469807,
+      "f1_weighted": 0.5621469389709688,
+      "f1_per_class": [
+        0.620253164556962,
+        0.28,
+        0.680327868852459
+      ],
+      "mae": 0.6737596768486712,
+      "pearson": 0.5421860685464295,
+      "neutral_recall": 0.19021739130434784,
+      "opposite_sign_count": 36
+    },
+    "checkpoint": "candidates/tiny_text_seed1729.pt",
+    "checkpoint_sha256": "f0081ab1578106645499387fdadcffc244cac94383d46aa933e25fd3934016df",
+    "max_embedding_change": 0.010201806202530861,
+    "epochs_run": 10,
+    "seconds": 129.33660435676575
+  },
+  {
+    "name": "tiny_text_seed2027",
+    "stage": "tiny_text",
+    "seed": 2027,
+    "epoch": 7,
+    "metrics": {
+      "accuracy": 0.5934065934065934,
+      "f1_macro": 0.5308895902603349,
+      "f1_weighted": 0.5661899559746721,
+      "f1_per_class": [
+        0.6172839506172839,
+        0.2899628252788104,
+        0.6854219948849105
+      ],
+      "mae": 0.6787718701749467,
+      "pearson": 0.5418181015987712,
+      "neutral_recall": 0.21195652173913043,
+      "opposite_sign_count": 24
+    },
+    "checkpoint": "candidates/tiny_text_seed2027.pt",
+    "checkpoint_sha256": "be92e7c23162e107843eebca44c2fc9dceb47e9c5babda2a04786c8d65a6ddd4",
+    "max_embedding_change": 0.009930519387125969,
+    "epochs_run": 10,
+    "seconds": 119.67032074928284
+  },
+  {
+    "name": "mini_text_seed1729",
+    "stage": "mini_text",
+    "seed": 1729,
+    "epoch": 4,
+    "metrics": {
+      "accuracy": 0.6153846153846154,
+      "f1_macro": 0.5576937186238965,
+      "f1_weighted": 0.5906936237685826,
+      "f1_per_class": [
+        0.630272952853598,
+        0.33948339483394835,
+        0.7033248081841432
+      ],
+      "mae": 0.6558539666706226,
+      "pearson": 0.5772252637297116,
+      "neutral_recall": 0.25,
+      "opposite_sign_count": 44
+    },
+    "checkpoint": "candidates/mini_text_seed1729.pt",
+    "checkpoint_sha256": "f949ef1eadadf3f5800481a2cbca2fd7aab238643d3d4d2058d83b7b8ae3df09",
+    "max_embedding_change": 0.005629109218716621,
+    "epochs_run": 7,
+    "seconds": 312.9499969482422
+  },
+  {
+    "name": "mini_text_seed2027",
+    "stage": "mini_text",
+    "seed": 2027,
+    "epoch": 3,
+    "metrics": {
+      "accuracy": 0.6181318681318682,
+      "f1_macro": 0.5558623238130372,
+      "f1_weighted": 0.5910619332421146,
+      "f1_per_class": [
+        0.6141732283464567,
+        0.33948339483394835,
+        0.7139303482587065
+      ],
+      "mae": 0.6565130590154165,
+      "pearson": 0.567703960669238,
+      "neutral_recall": 0.25,
+      "opposite_sign_count": 28
+    },
+    "checkpoint": "candidates/mini_text_seed2027.pt",
+    "checkpoint_sha256": "cc9d659c92dec41e299ae884c063918c122605d91919b5fb4189bb1cc05aaffa",
+    "max_embedding_change": 0.004184499382972717,
+    "epochs_run": 6,
+    "seconds": 258.57444071769714
+  },
+  {
+    "name": "mini_temporal_seed1729",
+    "stage": "mini_temporal",
+    "seed": 1729,
+    "epoch": 4,
+    "metrics": {
+      "accuracy": 0.625,
+      "f1_macro": 0.5665289040216238,
+      "f1_weighted": 0.6001960037632723,
+      "f1_per_class": [
+        0.6386138613861386,
+        0.34558823529411764,
+        0.7153846153846154
+      ],
+      "mae": 0.6567012655170081,
+      "pearson": 0.5838944576702939,
+      "neutral_recall": 0.2554347826086957,
+      "opposite_sign_count": 43
+    },
+    "checkpoint": "candidates/mini_temporal_seed1729.pt",
+    "checkpoint_sha256": "9102f7a909b7d33a478a489789ae1e8189b3aa86184ce001738a75914b00f517",
+    "max_embedding_change": 0.00515600573271513,
+    "epochs_run": 7,
+    "seconds": 311.2881727218628
+  },
+  {
+    "name": "mini_temporal_seed2027",
+    "stage": "mini_temporal",
+    "seed": 2027,
+    "epoch": 5,
+    "metrics": {
+      "accuracy": 0.6181318681318682,
+      "f1_macro": 0.5570501072610777,
+      "f1_weighted": 0.5915607364974453,
+      "f1_per_class": [
+        0.6363636363636364,
+        0.32592592592592595,
+        0.7088607594936709
+      ],
+      "mae": 0.637109941480538,
+      "pearson": 0.6049986638185555,
+      "neutral_recall": 0.2391304347826087,
+      "opposite_sign_count": 41
+    },
+    "checkpoint": "candidates/mini_temporal_seed2027.pt",
+    "checkpoint_sha256": "c4993b8c22cd8c04933c0bdfae8b184c267632abc022e2a48c6f8eedb1212861",
+    "max_embedding_change": 0.006361732259392738,
+    "epochs_run": 8,
+    "seconds": 346.93906569480896
+  },
+  {
+    "name": "mini_mag_seed1729",
+    "stage": "mini_mag",
+    "seed": 1729,
+    "epoch": 4,
+    "metrics": {
+      "accuracy": 0.625,
+      "f1_macro": 0.5684102251551915,
+      "f1_weighted": 0.6017077534761519,
+      "f1_per_class": [
+        0.6336633663366337,
+        0.35507246376811596,
+        0.7164948453608248
+      ],
+      "mae": 0.6542395689872677,
+      "pearson": 0.5851819517516023,
+      "neutral_recall": 0.266304347826087,
+      "opposite_sign_count": 45
+    },
+    "checkpoint": "candidates/mini_mag_seed1729.pt",
+    "checkpoint_sha256": "c54b981da4730d961f64e0a2a4160068ee0a2043a8da172908a23770f7aaf81a",
+    "max_embedding_change": 0.005150238983333111,
+    "epochs_run": 7,
+    "seconds": 329.03253626823425
+  },
+  {
+    "name": "mini_mag_seed2027",
+    "stage": "mini_mag",
+    "seed": 2027,
+    "epoch": 3,
+    "metrics": {
+      "accuracy": 0.625,
+      "f1_macro": 0.5784002467576784,
+      "f1_weighted": 0.6082463609399295,
+      "f1_per_class": [
+        0.6109660574412533,
+        0.40939597315436244,
+        0.7148387096774194
+      ],
+      "mae": 0.6427877941424702,
+      "pearson": 0.5870212929292596,
+      "neutral_recall": 0.33152173913043476,
+      "opposite_sign_count": 27
+    },
+    "checkpoint": "candidates/mini_mag_seed2027.pt",
+    "checkpoint_sha256": "d38309449b541b027c3ee7f16d344c1f5a1370ae555f32c7fa63c91c3803b590",
+    "max_embedding_change": 0.004697002470493317,
+    "epochs_run": 6,
+    "seconds": 295.0344169139862
+  }
+]

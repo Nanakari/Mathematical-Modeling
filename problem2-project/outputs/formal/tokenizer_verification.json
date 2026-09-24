@@ -1,0 +1,21 @@
+{
+  "train": {
+    "n": 3395,
+    "exact_sequence_matches": 3395,
+    "position_match_rate": 1.0,
+    "mismatch_examples": []
+  },
+  "valid": {
+    "n": 728,
+    "exact_sequence_matches": 728,
+    "position_match_rate": 1.0,
+    "mismatch_examples": []
+  },
+  "vocab_size": 30522,
+  "special_ids": {
+    "pad_token_id": 0,
+    "unk_token_id": 100,
+    "cls_token_id": 101,
+    "sep_token_id": 102
+  }
+}

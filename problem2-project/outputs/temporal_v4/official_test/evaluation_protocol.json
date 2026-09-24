@@ -1,0 +1,68 @@
+{
+  "started_utc": "2026-09-24T01:03:57.369302+00:00",
+  "model": "mini_mag",
+  "members": [
+    {
+      "name": "mini_mag_seed1729",
+      "stage": "mini_mag",
+      "seed": 1729,
+      "epoch": 4,
+      "metrics": {
+        "accuracy": 0.625,
+        "f1_macro": 0.5684102251551915,
+        "f1_weighted": 0.6017077534761519,
+        "f1_per_class": [
+          0.6336633663366337,
+          0.35507246376811596,
+          0.7164948453608248
+        ],
+        "mae": 0.6542395689872677,
+        "pearson": 0.5851819517516023,
+        "neutral_recall": 0.266304347826087,
+        "opposite_sign_count": 45
+      },
+      "checkpoint": "candidates/mini_mag_seed1729.pt",
+      "checkpoint_sha256": "c54b981da4730d961f64e0a2a4160068ee0a2043a8da172908a23770f7aaf81a",
+      "max_embedding_change": 0.005150238983333111,
+      "epochs_run": 7,
+      "seconds": 329.03253626823425
+    },
+    {
+      "name": "mini_mag_seed2027",
+      "stage": "mini_mag",
+      "seed": 2027,
+      "epoch": 3,
+      "metrics": {
+        "accuracy": 0.625,
+        "f1_macro": 0.5784002467576784,
+        "f1_weighted": 0.6082463609399295,
+        "f1_per_class": [
+          0.6109660574412533,
+          0.40939597315436244,
+          0.7148387096774194
+        ],
+        "mae": 0.6427877941424702,
+        "pearson": 0.5870212929292596,
+        "neutral_recall": 0.33152173913043476,
+        "opposite_sign_count": 27
+      },
+      "checkpoint": "candidates/mini_mag_seed2027.pt",
+      "checkpoint_sha256": "d38309449b541b027c3ee7f16d344c1f5a1370ae555f32c7fa63c91c3803b590",
+      "max_embedding_change": 0.004697002470493317,
+      "epochs_run": 6,
+      "seconds": 295.0344169139862
+    }
+  ],
+  "selection_sha256": "a421fd2bcca10e1e3a5773aff86ff284308aebbeaf44564d4080a4af9a700e06",
+  "model_manifest_sha256": "e68834d26d5e3976a2cfdb87204da2634fbe27410479c50b128294155e3b0617",
+  "data_sha256": "66e867aa74bc70a844e806e5571e371c9abb4a35f9e2887ce9b4d97ff2cb8fcd",
+  "evaluator_sha256": "fa693bfe7bbbda8d88fd53e6d6807befc2598dd23051f455bb927bbb6b5867d9",
+  "split": "test",
+  "scenario": "complete",
+  "expected_n": 727,
+  "aggregation": "equal mean of both frozen seeds; intensity clipped per member before averaging",
+  "classification": "argmax of mean probabilities; 0 negative, 1 neutral, 2 positive",
+  "refit": false,
+  "tuning": false,
+  "reselection": false
+}

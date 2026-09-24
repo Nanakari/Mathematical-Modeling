@@ -1,0 +1,13 @@
+{
+  "feature_version": "aligned_50.pkl",
+  "seed": 20260923,
+  "mask_policy": "aligned_text_attention_candidate",
+  "zero_policy": "exclude_all_zero_candidate",
+  "hidden_dim": 12,
+  "classification_weight": 1.0,
+  "regression_weight": 1.0,
+  "missing_rates": [0.0, 0.1, 0.3, 0.5],
+  "positions": ["start", "middle", "end", "random"],
+  "f1_averages": ["macro", "weighted"],
+  "status": "provisional_engineering_configuration_not_final_experiment_protocol"
+}

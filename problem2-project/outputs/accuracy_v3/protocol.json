@@ -1,0 +1,40 @@
+{
+  "output": "outputs/accuracy_v3",
+  "seed": 1729,
+  "threads": 4,
+  "encoder": "models/bert_tiny",
+  "formal_dir": "outputs/formal",
+  "gamma": [
+    0.0,
+    0.5,
+    1.0
+  ],
+  "C": [
+    0.5,
+    2.0,
+    8.0
+  ],
+  "encoder_learning_rates": [
+    2e-05,
+    5e-05
+  ],
+  "head_learning_rate": 0.0005,
+  "epochs": 12,
+  "patience": 4,
+  "batch_size": 64,
+  "dropout": 0.2,
+  "weight_decay": 0.01,
+  "regression_loss_weight": 0.2,
+  "clean_probability": 0.6,
+  "augmentation_seed": 17,
+  "augmentation_rates": [
+    0.1,
+    0.3,
+    0.5
+  ],
+  "validation_mask_seed": 101,
+  "selection": "Maximize complete official validation three-class Accuracy; ties use Macro-F1 then smaller MAE; exact ties keep first candidate/epoch.",
+  "validation_policy": "Previously inspected validation is reused for explicit model and epoch selection; reported scores are not unbiased new test estimates.",
+  "test_policy": "Do not evaluate official test or use its labels; reading the supplied combined pickle is only for extracting train and valid splits.",
+  "target": 0.7
+}

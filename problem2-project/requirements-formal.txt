@@ -1,0 +1,11 @@
+numpy==2.0.2
+scipy==1.13.1
+scikit-learn==1.6.1
+matplotlib==3.10.0
+joblib==1.4.2
+threadpoolctl==3.5.0
+transformers==4.46.3
+tokenizers==0.20.3
+safetensors==0.8.0
+huggingface-hub==0.36.2
+# Separately install torch==2.14.0+cpu from https://download.pytorch.org/whl/cpu

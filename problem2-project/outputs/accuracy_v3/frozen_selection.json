@@ -1,0 +1,73 @@
+{
+  "kind": "neural",
+  "best_linear": {
+    "name": "linear_g0.5_C0.5",
+    "gamma": 0.5,
+    "C": 0.5,
+    "metrics": {
+      "accuracy": 0.6002747252747253,
+      "f1_macro": 0.5580733919999771,
+      "f1_weighted": 0.5874039439072015,
+      "f1_per_class": [
+        0.6108374384236454,
+        0.3741935483870968,
+        0.6891891891891891
+      ],
+      "mae": 0.6627446523227123,
+      "pearson": 0.5426025067752851,
+      "neutral_recall": 0.31521739130434784,
+      "opposite_sign_count": 19
+    }
+  },
+  "best_neural": {
+    "name": "finetuned_g0.0_lr5e-05",
+    "gamma": 0.0,
+    "frozen": false,
+    "lr": 5e-05,
+    "epoch": 6,
+    "metrics": {
+      "accuracy": 0.6112637362637363,
+      "f1_macro": 0.5562374027101615,
+      "f1_weighted": 0.5882759547191002,
+      "f1_per_class": [
+        0.6238095238095238,
+        0.34686346863468637,
+        0.6980392156862745
+      ],
+      "mae": 0.667933602863411,
+      "pearson": 0.5517665035856448,
+      "neutral_recall": 0.2554347826086957,
+      "opposite_sign_count": 22
+    },
+    "checkpoint": "candidates/finetuned_g0.0_lr5e-05.pt",
+    "checkpoint_sha256": "9e7f884fe3d86f2e4125c51e4ea4ce23d8e0897ee0a71ab2a4ac855ef6f9e50b",
+    "epochs_run": 10,
+    "seconds": 99.53249311447144,
+    "initial_encoder_sha256": "7fb69ad9f6866d8983183c930e33828f326470bf6ad8bbb2ad4ed957a92e9414",
+    "max_embedding_change": 0.009658172726631165,
+    "class_weights": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "original_metrics": {
+    "accuracy": 0.5782967032967034,
+    "f1_macro": 0.5558685877106478,
+    "f1_weighted": 0.5790676353351224,
+    "f1_per_class": [
+      0.5971563981042654,
+      0.41081081081081083,
+      0.6596385542168675
+    ],
+    "mae": 0.6622882878513319,
+    "pearson": 0.5436792850838258,
+    "neutral_recall": 0.41304347826086957,
+    "opposite_sign_count": 29
+  },
+  "protocol_sha256": "9e01c89b983b76c8cba5deeea8fa9a3250f7341639795018d94465befbd94ce6",
+  "feature_map_sha256": "010c31967245dfeedd632f310fb3a5b93d337d627eb7b4bdfa2e94098de3feea",
+  "linear_sha256": "a1743300d4dadf46ddc1ffba4a1487a218b88c090be89941d00c11524deb1edd",
+  "official_test_evaluated": false,
+  "selection_split": "previously used official validation"
+}

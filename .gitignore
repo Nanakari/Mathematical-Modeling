@@ -1,0 +1,25 @@
+# Local data and runtime environments
+.venv/
+**/.venv/
+__pycache__/
+*.py[cod]
+E题/E题数据/**
+!E题/E题数据/.gitkeep
+
+# Local logs, caches and per-sample label/prediction dumps
+*.log
+problem2-project/outputs/**/test_anchors.json
+problem2-project/outputs/**/test_predictions.jsonl.gz
+problem2-project/outputs/**/test_masks.jsonl.gz
+problem2-project/outputs/**/official_test/predictions.csv
+problem2-project/outputs/**/validation_predictions.joblib
+problem2-project/outputs/**/validation_errors.csv
+
+# Candidate weights and large preparation caches are not submission artifacts
+problem2-project/outputs/**/*.pt
+problem2-project/outputs/**/prepared.pt
+!problem2-project/outputs/accuracy_v3/neural_selected.pt
+!problem2-project/outputs/accuracy_v3/candidates/finetuned_g0.0_lr5e-05.pt
+
+# An accidental, untracked local script from repository staging
+/problem2

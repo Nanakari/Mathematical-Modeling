@@ -1,0 +1,7 @@
+{
+  "status": "completed",
+  "train_n": 3395,
+  "valid_n": 728,
+  "official_test_evaluated": false,
+  "selection_sha256": "606f2c08fa94b5151aef1489ec8252430f4e76e2e28e44a9de0745478d6e2257"
+}

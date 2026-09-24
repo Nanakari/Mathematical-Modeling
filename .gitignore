@@ -23,3 +23,6 @@ problem2-project/outputs/**/prepared.pt
 
 # An accidental, untracked local script from repository staging
 /problem2
+
+!problem2-project/outputs/temporal_v4/candidates/mini_mag_seed1729.pt
+!problem2-project/outputs/temporal_v4/candidates/mini_mag_seed2027.pt

@@ -1,0 +1,5145 @@
+{
+  "package": "D:\\codex_projects\\projects\\Mathematical Modeling\\problem2\\outputs\\bert_postencoder_20260926\\packages\\pooled",
+  "package_sha256": "451c48a18e66d24d87a0c1ccd91696c0f24292ec2614d3f6359100d959e9fe16",
+  "device": "cuda",
+  "package_verification": {
+    "status": "passed",
+    "files": 18,
+    "payload_files": 17,
+    "directory_bytes": 24168353,
+    "directory_sha256": "451c48a18e66d24d87a0c1ccd91696c0f24292ec2614d3f6359100d959e9fe16",
+    "manifest_sha256": "e98ecebae53eca9dc08f45d206ee3264b7797c1006c30d97bfac4fdd43067f79",
+    "precision": "fp16",
+    "package_reload_verified": true,
+    "official_test_evaluated": false,
+    "zip_bytes": 21574513,
+    "zip_sha256": "5e4f23a498ec5e672bab058dce3172a4d93b0e4c3e9feca7953aeef32b5010a6",
+    "zip_uncompressed_bytes": 24168353,
+    "zip_path": "D:\\codex_projects\\projects\\Mathematical Modeling\\problem2\\outputs\\bert_postencoder_20260926\\packages\\pooled.zip"
+  },
+  "valid_count": 728,
+  "valid_fingerprint": {
+    "split": "valid",
+    "count": 728,
+    "sha256": "e2c01f7c7d167e498db557adaabf7ad8bfb9e42571c94b389980b05b6084e7de"
+  },
+  "seed": 101,
+  "scenario_count": 120,
+  "local_case_count": 112,
+  "fully_missing_case_count": 7,
+  "local_112_summary": {
+    "accuracy": 0.5985699568288856,
+    "macro_f1": 0.542284231495241,
+    "neutral_recall": 0.25412461180124213,
+    "neutral_to_positive": 100.09821428571429
+  },
+  "local_112_regression_summary": {
+    "mae_mean": 0.6534899071954312,
+    "pearson_mean_valid": 0.5532658214413586,
+    "pearson_valid_count": 112
+  },
+  "fully_missing_7": {
+    "text|whole_drop": {
+      "n": 728,
+      "accuracy": 0.36675824175824173,
+      "macro_f1": 0.3518589965984071,
+      "negative_recall": 0.5970873786407767,
+      "neutral_recall": 0.23369565217391305,
+      "positive_recall": 0.2988165680473373,
+      "neutral_to_positive": 38,
+      "neutral_correct": 43,
+      "neutral_count": 184,
+      "mae": 0.8114473652428816,
+      "pearson": 0.14362086101059934,
+      "confusion_matrix": [
+        [
+          123,
+          42,
+          41
+        ],
+        [
+          103,
+          43,
+          38
+        ],
+        [
+          179,
+          58,
+          101
+        ]
+      ]
+    },
+    "audio|whole_drop": {
+      "n": 728,
+      "accuracy": 0.6222527472527473,
+      "macro_f1": 0.5506666536742056,
+      "negative_recall": 0.6650485436893204,
+      "neutral_recall": 0.1956521739130435,
+      "positive_recall": 0.8284023668639053,
+      "neutral_to_positive": 110,
+      "neutral_correct": 36,
+      "neutral_count": 184,
+      "mae": 0.618278381691038,
+      "pearson": 0.6119707234924315,
+      "confusion_matrix": [
+        [
+          137,
+          10,
+          59
+        ],
+        [
+          38,
+          36,
+          110
+        ],
+        [
+          42,
+          16,
+          280
+        ]
+      ]
+    },
+    "vision|whole_drop": {
+      "n": 728,
+      "accuracy": 0.625,
+      "macro_f1": 0.5500929825092505,
+      "negative_recall": 0.6504854368932039,
+      "neutral_recall": 0.19021739130434784,
+      "positive_recall": 0.8461538461538461,
+      "neutral_to_positive": 115,
+      "neutral_correct": 35,
+      "neutral_count": 184,
+      "mae": 0.6325605432550899,
+      "pearson": 0.601123487539039,
+      "confusion_matrix": [
+        [
+          134,
+          13,
+          59
+        ],
+        [
+          34,
+          35,
+          115
+        ],
+        [
+          42,
+          10,
+          286
+        ]
+      ]
+    },
+    "text+audio|whole_drop": {
+      "n": 728,
+      "accuracy": 0.3447802197802198,
+      "macro_f1": 0.3372221213461444,
+      "negative_recall": 0.5679611650485437,
+      "neutral_recall": 0.30434782608695654,
+      "positive_recall": 0.23076923076923078,
+      "neutral_to_positive": 21,
+      "neutral_correct": 56,
+      "neutral_count": 184,
+      "mae": 0.800718119119935,
+      "pearson": 0.18852510233785838,
+      "confusion_matrix": [
+        [
+          117,
+          63,
+          26
+        ],
+        [
+          107,
+          56,
+          21
+        ],
+        [
+          166,
+          94,
+          78
+        ]
+      ]
+    },
+    "text+vision|whole_drop": {
+      "n": 728,
+      "accuracy": 0.33379120879120877,
+      "macro_f1": 0.31541996958386515,
+      "negative_recall": 0.470873786407767,
+      "neutral_recall": 0.1793478260869565,
+      "positive_recall": 0.3343195266272189,
+      "neutral_to_positive": 63,
+      "neutral_correct": 33,
+      "neutral_count": 184,
+      "mae": 0.7998383952375722,
+      "pearson": 0.025160579732195116,
+      "confusion_matrix": [
+        [
+          97,
+          26,
+          83
+        ],
+        [
+          88,
+          33,
+          63
+        ],
+        [
+          173,
+          52,
+          113
+        ]
+      ]
+    },
+    "audio+vision|whole_drop": {
+      "n": 728,
+      "accuracy": 0.6181318681318682,
+      "macro_f1": 0.5361774976744784,
+      "negative_recall": 0.6310679611650486,
+      "neutral_recall": 0.16304347826086957,
+      "positive_recall": 0.8579881656804734,
+      "neutral_to_positive": 123,
+      "neutral_correct": 30,
+      "neutral_count": 184,
+      "mae": 0.626018980745697,
+      "pearson": 0.6038447809363701,
+      "confusion_matrix": [
+        [
+          130,
+          9,
+          67
+        ],
+        [
+          31,
+          30,
+          123
+        ],
+        [
+          38,
+          10,
+          290
+        ]
+      ]
+    },
+    "text+audio+vision|whole_drop": {
+      "n": 728,
+      "accuracy": 0.28296703296703296,
+      "macro_f1": 0.1470378301213419,
+      "negative_recall": 1.0,
+      "neutral_recall": 0.0,
+      "positive_recall": 0.0,
+      "neutral_to_positive": 0,
+      "neutral_correct": 0,
+      "neutral_count": 184,
+      "mae": 0.7880705054440014,
+      "pearson": null,
+      "confusion_matrix": [
+        [
+          206,
+          0,
+          0
+        ],
+        [
+          184,
+          0,
+          0
+        ],
+        [
+          338,
+          0,
+          0
+        ]
+      ]
+    }
+  },
+  "fully_missing_protocol": {
+    "drop_scope": "entire selected modality",
+    "text_content_mask": "text_pool_mask positions; CLS/SEP may remain",
+    "audio_vision": "values zeroed and observed masks cleared"
+  },
+  "cases": [
+    {
+      "name": "complete",
+      "group": "full",
+      "modalities": [],
+      "rate": 0.0,
+      "position": "start",
+      "seed": 0,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.6263736263736264,
+        "macro_f1": 0.5603412644678725,
+        "negative_recall": 0.6650485436893204,
+        "neutral_recall": 0.21739130434782608,
+        "positive_recall": 0.8254437869822485,
+        "neutral_to_positive": 108,
+        "neutral_correct": 40,
+        "neutral_count": 184,
+        "mae": 0.6256266567769082,
+        "pearson": 0.606248658749058,
+        "confusion_matrix": [
+          [
+            137,
+            10,
+            59
+          ],
+          [
+            36,
+            40,
+            108
+          ],
+          [
+            43,
+            16,
+            279
+          ]
+        ]
+      }
+    },
+    {
+      "name": "text|start|0.1",
+      "group": "local",
+      "modalities": [
+        "text"
+      ],
+      "rate": 0.1,
+      "position": "start",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.6181318681318682,
+        "macro_f1": 0.5474957706979061,
+        "negative_recall": 0.6601941747572816,
+        "neutral_recall": 0.1956521739130435,
+        "positive_recall": 0.8224852071005917,
+        "neutral_to_positive": 111,
+        "neutral_correct": 36,
+        "neutral_count": 184,
+        "mae": 0.6332753196366356,
+        "pearson": 0.5956666167626148,
+        "confusion_matrix": [
+          [
+            136,
+            9,
+            61
+          ],
+          [
+            37,
+            36,
+            111
+          ],
+          [
+            44,
+            16,
+            278
+          ]
+        ]
+      }
+    },
+    {
+      "name": "text|start|0.3",
+      "group": "local",
+      "modalities": [
+        "text"
+      ],
+      "rate": 0.3,
+      "position": "start",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.6085164835164835,
+        "macro_f1": 0.5318403296654091,
+        "negative_recall": 0.6067961165048543,
+        "neutral_recall": 0.18478260869565216,
+        "positive_recall": 0.8402366863905325,
+        "neutral_to_positive": 108,
+        "neutral_correct": 34,
+        "neutral_count": 184,
+        "mae": 0.6755652938135337,
+        "pearson": 0.5311927248146647,
+        "confusion_matrix": [
+          [
+            125,
+            14,
+            67
+          ],
+          [
+            42,
+            34,
+            108
+          ],
+          [
+            37,
+            17,
+            284
+          ]
+        ]
+      }
+    },
+    {
+      "name": "text|start|0.5",
+      "group": "local",
+      "modalities": [
+        "text"
+      ],
+      "rate": 0.5,
+      "position": "start",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.5741758241758241,
+        "macro_f1": 0.5098821374130718,
+        "negative_recall": 0.5436893203883495,
+        "neutral_recall": 0.21739130434782608,
+        "positive_recall": 0.7869822485207101,
+        "neutral_to_positive": 100,
+        "neutral_correct": 40,
+        "neutral_count": 184,
+        "mae": 0.7029748290695972,
+        "pearson": 0.4778127087502921,
+        "confusion_matrix": [
+          [
+            112,
+            20,
+            74
+          ],
+          [
+            44,
+            40,
+            100
+          ],
+          [
+            44,
+            28,
+            266
+          ]
+        ]
+      }
+    },
+    {
+      "name": "text|start|0.7",
+      "group": "local",
+      "modalities": [
+        "text"
+      ],
+      "rate": 0.7,
+      "position": "start",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.532967032967033,
+        "macro_f1": 0.49979505692622683,
+        "negative_recall": 0.4563106796116505,
+        "neutral_recall": 0.358695652173913,
+        "positive_recall": 0.6745562130177515,
+        "neutral_to_positive": 84,
+        "neutral_correct": 66,
+        "neutral_count": 184,
+        "mae": 0.7347467899268779,
+        "pearson": 0.39989414977863397,
+        "confusion_matrix": [
+          [
+            94,
+            34,
+            78
+          ],
+          [
+            34,
+            66,
+            84
+          ],
+          [
+            52,
+            58,
+            228
+          ]
+        ]
+      }
+    },
+    {
+      "name": "text|middle|0.1",
+      "group": "local",
+      "modalities": [
+        "text"
+      ],
+      "rate": 0.1,
+      "position": "middle",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.6263736263736264,
+        "macro_f1": 0.5648514517673396,
+        "negative_recall": 0.6747572815533981,
+        "neutral_recall": 0.23369565217391305,
+        "positive_recall": 0.8106508875739645,
+        "neutral_to_positive": 103,
+        "neutral_correct": 43,
+        "neutral_count": 184,
+        "mae": 0.6243660748612576,
+        "pearson": 0.5999238633556307,
+        "confusion_matrix": [
+          [
+            139,
+            12,
+            55
+          ],
+          [
+            38,
+            43,
+            103
+          ],
+          [
+            45,
+            19,
+            274
+          ]
+        ]
+      }
+    },
+    {
+      "name": "text|middle|0.3",
+      "group": "local",
+      "modalities": [
+        "text"
+      ],
+      "rate": 0.3,
+      "position": "middle",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.6057692307692307,
+        "macro_f1": 0.5542718576408873,
+        "negative_recall": 0.6019417475728155,
+        "neutral_recall": 0.27717391304347827,
+        "positive_recall": 0.7869822485207101,
+        "neutral_to_positive": 96,
+        "neutral_correct": 51,
+        "neutral_count": 184,
+        "mae": 0.6436492811311497,
+        "pearson": 0.5590851451212104,
+        "confusion_matrix": [
+          [
+            124,
+            17,
+            65
+          ],
+          [
+            37,
+            51,
+            96
+          ],
+          [
+            46,
+            26,
+            266
+          ]
+        ]
+      }
+    },
+    {
+      "name": "text|middle|0.5",
+      "group": "local",
+      "modalities": [
+        "text"
+      ],
+      "rate": 0.5,
+      "position": "middle",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.5824175824175825,
+        "macro_f1": 0.5405497319414105,
+        "negative_recall": 0.5825242718446602,
+        "neutral_recall": 0.30434782608695654,
+        "positive_recall": 0.7337278106508875,
+        "neutral_to_positive": 89,
+        "neutral_correct": 56,
+        "neutral_count": 184,
+        "mae": 0.6809874765765547,
+        "pearson": 0.5051995218574722,
+        "confusion_matrix": [
+          [
+            120,
+            21,
+            65
+          ],
+          [
+            39,
+            56,
+            89
+          ],
+          [
+            45,
+            45,
+            248
+          ]
+        ]
+      }
+    },
+    {
+      "name": "text|middle|0.7",
+      "group": "local",
+      "modalities": [
+        "text"
+      ],
+      "rate": 0.7,
+      "position": "middle",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.532967032967033,
+        "macro_f1": 0.506342079177987,
+        "negative_recall": 0.4563106796116505,
+        "neutral_recall": 0.391304347826087,
+        "positive_recall": 0.6568047337278107,
+        "neutral_to_positive": 84,
+        "neutral_correct": 72,
+        "neutral_count": 184,
+        "mae": 0.7031173784110522,
+        "pearson": 0.4262848175192344,
+        "confusion_matrix": [
+          [
+            94,
+            41,
+            71
+          ],
+          [
+            28,
+            72,
+            84
+          ],
+          [
+            37,
+            79,
+            222
+          ]
+        ]
+      }
+    },
+    {
+      "name": "text|end|0.1",
+      "group": "local",
+      "modalities": [
+        "text"
+      ],
+      "rate": 0.1,
+      "position": "end",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.6208791208791209,
+        "macro_f1": 0.5587566898314562,
+        "negative_recall": 0.6699029126213593,
+        "neutral_recall": 0.22826086956521738,
+        "positive_recall": 0.8047337278106509,
+        "neutral_to_positive": 103,
+        "neutral_correct": 42,
+        "neutral_count": 184,
+        "mae": 0.6419387932746559,
+        "pearson": 0.5810722791224412,
+        "confusion_matrix": [
+          [
+            138,
+            13,
+            55
+          ],
+          [
+            39,
+            42,
+            103
+          ],
+          [
+            45,
+            21,
+            272
+          ]
+        ]
+      }
+    },
+    {
+      "name": "text|end|0.3",
+      "group": "local",
+      "modalities": [
+        "text"
+      ],
+      "rate": 0.3,
+      "position": "end",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.5810439560439561,
+        "macro_f1": 0.5308142150247414,
+        "negative_recall": 0.6262135922330098,
+        "neutral_recall": 0.25,
+        "positive_recall": 0.7337278106508875,
+        "neutral_to_positive": 100,
+        "neutral_correct": 46,
+        "neutral_count": 184,
+        "mae": 0.6542708476894065,
+        "pearson": 0.5470688274705291,
+        "confusion_matrix": [
+          [
+            129,
+            22,
+            55
+          ],
+          [
+            38,
+            46,
+            100
+          ],
+          [
+            56,
+            34,
+            248
+          ]
+        ]
+      }
+    },
+    {
+      "name": "text|end|0.5",
+      "group": "local",
+      "modalities": [
+        "text"
+      ],
+      "rate": 0.5,
+      "position": "end",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.5563186813186813,
+        "macro_f1": 0.5258949666892724,
+        "negative_recall": 0.5922330097087378,
+        "neutral_recall": 0.33152173913043476,
+        "positive_recall": 0.6568047337278107,
+        "neutral_to_positive": 86,
+        "neutral_correct": 61,
+        "neutral_count": 184,
+        "mae": 0.6901980029057025,
+        "pearson": 0.4754930636856176,
+        "confusion_matrix": [
+          [
+            122,
+            26,
+            58
+          ],
+          [
+            37,
+            61,
+            86
+          ],
+          [
+            61,
+            55,
+            222
+          ]
+        ]
+      }
+    },
+    {
+      "name": "text|end|0.7",
+      "group": "local",
+      "modalities": [
+        "text"
+      ],
+      "rate": 0.7,
+      "position": "end",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.5137362637362637,
+        "macro_f1": 0.49436096349219816,
+        "negative_recall": 0.46116504854368934,
+        "neutral_recall": 0.42934782608695654,
+        "positive_recall": 0.591715976331361,
+        "neutral_to_positive": 72,
+        "neutral_correct": 79,
+        "neutral_count": 184,
+        "mae": 0.7216309274157898,
+        "pearson": 0.42885485000532986,
+        "confusion_matrix": [
+          [
+            95,
+            59,
+            52
+          ],
+          [
+            33,
+            79,
+            72
+          ],
+          [
+            54,
+            84,
+            200
+          ]
+        ]
+      }
+    },
+    {
+      "name": "text|random|0.1",
+      "group": "local",
+      "modalities": [
+        "text"
+      ],
+      "rate": 0.1,
+      "position": "random",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.6181318681318682,
+        "macro_f1": 0.5547177598923039,
+        "negative_recall": 0.6553398058252428,
+        "neutral_recall": 0.22282608695652173,
+        "positive_recall": 0.8106508875739645,
+        "neutral_to_positive": 105,
+        "neutral_correct": 41,
+        "neutral_count": 184,
+        "mae": 0.6313327370744946,
+        "pearson": 0.595691916910846,
+        "confusion_matrix": [
+          [
+            135,
+            11,
+            60
+          ],
+          [
+            38,
+            41,
+            105
+          ],
+          [
+            43,
+            21,
+            274
+          ]
+        ]
+      }
+    },
+    {
+      "name": "text|random|0.3",
+      "group": "local",
+      "modalities": [
+        "text"
+      ],
+      "rate": 0.3,
+      "position": "random",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.6126373626373627,
+        "macro_f1": 0.5560264337264539,
+        "negative_recall": 0.6359223300970874,
+        "neutral_recall": 0.2554347826086957,
+        "positive_recall": 0.7928994082840237,
+        "neutral_to_positive": 96,
+        "neutral_correct": 47,
+        "neutral_count": 184,
+        "mae": 0.6451700222640104,
+        "pearson": 0.5579956287078737,
+        "confusion_matrix": [
+          [
+            131,
+            18,
+            57
+          ],
+          [
+            41,
+            47,
+            96
+          ],
+          [
+            48,
+            22,
+            268
+          ]
+        ]
+      }
+    },
+    {
+      "name": "text|random|0.5",
+      "group": "local",
+      "modalities": [
+        "text"
+      ],
+      "rate": 0.5,
+      "position": "random",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.5906593406593407,
+        "macro_f1": 0.54251956089816,
+        "negative_recall": 0.5922330097087378,
+        "neutral_recall": 0.2826086956521739,
+        "positive_recall": 0.757396449704142,
+        "neutral_to_positive": 94,
+        "neutral_correct": 52,
+        "neutral_count": 184,
+        "mae": 0.6723815230806205,
+        "pearson": 0.5142226839578866,
+        "confusion_matrix": [
+          [
+            122,
+            25,
+            59
+          ],
+          [
+            38,
+            52,
+            94
+          ],
+          [
+            47,
+            35,
+            256
+          ]
+        ]
+      }
+    },
+    {
+      "name": "text|random|0.7",
+      "group": "local",
+      "modalities": [
+        "text"
+      ],
+      "rate": 0.7,
+      "position": "random",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.521978021978022,
+        "macro_f1": 0.4950196665851472,
+        "negative_recall": 0.4563106796116505,
+        "neutral_recall": 0.3858695652173913,
+        "positive_recall": 0.636094674556213,
+        "neutral_to_positive": 79,
+        "neutral_correct": 71,
+        "neutral_count": 184,
+        "mae": 0.7108351010969932,
+        "pearson": 0.4323184319380151,
+        "confusion_matrix": [
+          [
+            94,
+            48,
+            64
+          ],
+          [
+            34,
+            71,
+            79
+          ],
+          [
+            50,
+            73,
+            215
+          ]
+        ]
+      }
+    },
+    {
+      "name": "audio|start|0.1",
+      "group": "local",
+      "modalities": [
+        "audio"
+      ],
+      "rate": 0.1,
+      "position": "start",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.6263736263736264,
+        "macro_f1": 0.5604303824661282,
+        "negative_recall": 0.6650485436893204,
+        "neutral_recall": 0.21739130434782608,
+        "positive_recall": 0.8254437869822485,
+        "neutral_to_positive": 108,
+        "neutral_correct": 40,
+        "neutral_count": 184,
+        "mae": 0.6258436576699951,
+        "pearson": 0.6060126803180763,
+        "confusion_matrix": [
+          [
+            137,
+            10,
+            59
+          ],
+          [
+            36,
+            40,
+            108
+          ],
+          [
+            42,
+            17,
+            279
+          ]
+        ]
+      }
+    },
+    {
+      "name": "audio|start|0.3",
+      "group": "local",
+      "modalities": [
+        "audio"
+      ],
+      "rate": 0.3,
+      "position": "start",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.6222527472527473,
+        "macro_f1": 0.556408720559664,
+        "negative_recall": 0.6601941747572816,
+        "neutral_recall": 0.21739130434782608,
+        "positive_recall": 0.8195266272189349,
+        "neutral_to_positive": 105,
+        "neutral_correct": 40,
+        "neutral_count": 184,
+        "mae": 0.6276170205399088,
+        "pearson": 0.6046069824829635,
+        "confusion_matrix": [
+          [
+            136,
+            10,
+            60
+          ],
+          [
+            39,
+            40,
+            105
+          ],
+          [
+            43,
+            18,
+            277
+          ]
+        ]
+      }
+    },
+    {
+      "name": "audio|start|0.5",
+      "group": "local",
+      "modalities": [
+        "audio"
+      ],
+      "rate": 0.5,
+      "position": "start",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.6071428571428571,
+        "macro_f1": 0.5420638527354459,
+        "negative_recall": 0.6601941747572816,
+        "neutral_recall": 0.20652173913043478,
+        "positive_recall": 0.7928994082840237,
+        "neutral_to_positive": 106,
+        "neutral_correct": 38,
+        "neutral_count": 184,
+        "mae": 0.6301967883751226,
+        "pearson": 0.6041670647720349,
+        "confusion_matrix": [
+          [
+            136,
+            12,
+            58
+          ],
+          [
+            40,
+            38,
+            106
+          ],
+          [
+            46,
+            24,
+            268
+          ]
+        ]
+      }
+    },
+    {
+      "name": "audio|start|0.7",
+      "group": "local",
+      "modalities": [
+        "audio"
+      ],
+      "rate": 0.7,
+      "position": "start",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.6112637362637363,
+        "macro_f1": 0.5454111002498099,
+        "negative_recall": 0.6699029126213593,
+        "neutral_recall": 0.20652173913043478,
+        "positive_recall": 0.7958579881656804,
+        "neutral_to_positive": 105,
+        "neutral_correct": 38,
+        "neutral_count": 184,
+        "mae": 0.6327536775548891,
+        "pearson": 0.6019739729073269,
+        "confusion_matrix": [
+          [
+            138,
+            10,
+            58
+          ],
+          [
+            41,
+            38,
+            105
+          ],
+          [
+            49,
+            20,
+            269
+          ]
+        ]
+      }
+    },
+    {
+      "name": "audio|middle|0.1",
+      "group": "local",
+      "modalities": [
+        "audio"
+      ],
+      "rate": 0.1,
+      "position": "middle",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.625,
+        "macro_f1": 0.5577900456839887,
+        "negative_recall": 0.6650485436893204,
+        "neutral_recall": 0.21195652173913043,
+        "positive_recall": 0.8254437869822485,
+        "neutral_to_positive": 109,
+        "neutral_correct": 39,
+        "neutral_count": 184,
+        "mae": 0.6252459025776121,
+        "pearson": 0.607371649577717,
+        "confusion_matrix": [
+          [
+            137,
+            10,
+            59
+          ],
+          [
+            36,
+            39,
+            109
+          ],
+          [
+            43,
+            16,
+            279
+          ]
+        ]
+      }
+    },
+    {
+      "name": "audio|middle|0.3",
+      "group": "local",
+      "modalities": [
+        "audio"
+      ],
+      "rate": 0.3,
+      "position": "middle",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.6208791208791209,
+        "macro_f1": 0.5529227435850098,
+        "negative_recall": 0.6650485436893204,
+        "neutral_recall": 0.20652173913043478,
+        "positive_recall": 0.8195266272189349,
+        "neutral_to_positive": 110,
+        "neutral_correct": 38,
+        "neutral_count": 184,
+        "mae": 0.6251150275558837,
+        "pearson": 0.6075609239114179,
+        "confusion_matrix": [
+          [
+            137,
+            10,
+            59
+          ],
+          [
+            36,
+            38,
+            110
+          ],
+          [
+            47,
+            14,
+            277
+          ]
+        ]
+      }
+    },
+    {
+      "name": "audio|middle|0.5",
+      "group": "local",
+      "modalities": [
+        "audio"
+      ],
+      "rate": 0.5,
+      "position": "middle",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.6263736263736264,
+        "macro_f1": 0.5581837910934442,
+        "negative_recall": 0.6650485436893204,
+        "neutral_recall": 0.21195652173913043,
+        "positive_recall": 0.8284023668639053,
+        "neutral_to_positive": 107,
+        "neutral_correct": 39,
+        "neutral_count": 184,
+        "mae": 0.6256827009991477,
+        "pearson": 0.6076445822119122,
+        "confusion_matrix": [
+          [
+            137,
+            10,
+            59
+          ],
+          [
+            38,
+            39,
+            107
+          ],
+          [
+            45,
+            13,
+            280
+          ]
+        ]
+      }
+    },
+    {
+      "name": "audio|middle|0.7",
+      "group": "local",
+      "modalities": [
+        "audio"
+      ],
+      "rate": 0.7,
+      "position": "middle",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.6318681318681318,
+        "macro_f1": 0.5671687907031512,
+        "negative_recall": 0.6650485436893204,
+        "neutral_recall": 0.22826086956521738,
+        "positive_recall": 0.8313609467455622,
+        "neutral_to_positive": 106,
+        "neutral_correct": 42,
+        "neutral_count": 184,
+        "mae": 0.6263289989949624,
+        "pearson": 0.6084120044320772,
+        "confusion_matrix": [
+          [
+            137,
+            11,
+            58
+          ],
+          [
+            36,
+            42,
+            106
+          ],
+          [
+            44,
+            13,
+            281
+          ]
+        ]
+      }
+    },
+    {
+      "name": "audio|end|0.1",
+      "group": "local",
+      "modalities": [
+        "audio"
+      ],
+      "rate": 0.1,
+      "position": "end",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.6277472527472527,
+        "macro_f1": 0.5614939493869633,
+        "negative_recall": 0.6650485436893204,
+        "neutral_recall": 0.21739130434782608,
+        "positive_recall": 0.8284023668639053,
+        "neutral_to_positive": 108,
+        "neutral_correct": 40,
+        "neutral_count": 184,
+        "mae": 0.6254685267442736,
+        "pearson": 0.605877878307378,
+        "confusion_matrix": [
+          [
+            137,
+            10,
+            59
+          ],
+          [
+            36,
+            40,
+            108
+          ],
+          [
+            41,
+            17,
+            280
+          ]
+        ]
+      }
+    },
+    {
+      "name": "audio|end|0.3",
+      "group": "local",
+      "modalities": [
+        "audio"
+      ],
+      "rate": 0.3,
+      "position": "end",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.6291208791208791,
+        "macro_f1": 0.5624645583424209,
+        "negative_recall": 0.6650485436893204,
+        "neutral_recall": 0.21739130434782608,
+        "positive_recall": 0.8313609467455622,
+        "neutral_to_positive": 107,
+        "neutral_correct": 40,
+        "neutral_count": 184,
+        "mae": 0.6243313724379143,
+        "pearson": 0.6058681384516115,
+        "confusion_matrix": [
+          [
+            137,
+            9,
+            60
+          ],
+          [
+            37,
+            40,
+            107
+          ],
+          [
+            40,
+            17,
+            281
+          ]
+        ]
+      }
+    },
+    {
+      "name": "audio|end|0.5",
+      "group": "local",
+      "modalities": [
+        "audio"
+      ],
+      "rate": 0.5,
+      "position": "end",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.6318681318681318,
+        "macro_f1": 0.5651629745016566,
+        "negative_recall": 0.6650485436893204,
+        "neutral_recall": 0.21739130434782608,
+        "positive_recall": 0.8372781065088757,
+        "neutral_to_positive": 110,
+        "neutral_correct": 40,
+        "neutral_count": 184,
+        "mae": 0.6239967452893724,
+        "pearson": 0.6047040604568178,
+        "confusion_matrix": [
+          [
+            137,
+            9,
+            60
+          ],
+          [
+            34,
+            40,
+            110
+          ],
+          [
+            39,
+            16,
+            283
+          ]
+        ]
+      }
+    },
+    {
+      "name": "audio|end|0.7",
+      "group": "local",
+      "modalities": [
+        "audio"
+      ],
+      "rate": 0.7,
+      "position": "end",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.6263736263736264,
+        "macro_f1": 0.5621988772932168,
+        "negative_recall": 0.6699029126213593,
+        "neutral_recall": 0.22282608695652173,
+        "positive_recall": 0.8195266272189349,
+        "neutral_to_positive": 107,
+        "neutral_correct": 41,
+        "neutral_count": 184,
+        "mae": 0.6239623271551233,
+        "pearson": 0.605677268678864,
+        "confusion_matrix": [
+          [
+            138,
+            10,
+            58
+          ],
+          [
+            36,
+            41,
+            107
+          ],
+          [
+            44,
+            17,
+            277
+          ]
+        ]
+      }
+    },
+    {
+      "name": "audio|random|0.1",
+      "group": "local",
+      "modalities": [
+        "audio"
+      ],
+      "rate": 0.1,
+      "position": "random",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.6277472527472527,
+        "macro_f1": 0.5596059837348784,
+        "negative_recall": 0.6650485436893204,
+        "neutral_recall": 0.21195652173913043,
+        "positive_recall": 0.8313609467455622,
+        "neutral_to_positive": 108,
+        "neutral_correct": 39,
+        "neutral_count": 184,
+        "mae": 0.6264540996261141,
+        "pearson": 0.6056503740591789,
+        "confusion_matrix": [
+          [
+            137,
+            10,
+            59
+          ],
+          [
+            37,
+            39,
+            108
+          ],
+          [
+            42,
+            15,
+            281
+          ]
+        ]
+      }
+    },
+    {
+      "name": "audio|random|0.3",
+      "group": "local",
+      "modalities": [
+        "audio"
+      ],
+      "rate": 0.3,
+      "position": "random",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.6291208791208791,
+        "macro_f1": 0.5629984083728077,
+        "negative_recall": 0.6601941747572816,
+        "neutral_recall": 0.22282608695652173,
+        "positive_recall": 0.8313609467455622,
+        "neutral_to_positive": 105,
+        "neutral_correct": 41,
+        "neutral_count": 184,
+        "mae": 0.6263626320428307,
+        "pearson": 0.6056821518211949,
+        "confusion_matrix": [
+          [
+            136,
+            11,
+            59
+          ],
+          [
+            38,
+            41,
+            105
+          ],
+          [
+            42,
+            15,
+            281
+          ]
+        ]
+      }
+    },
+    {
+      "name": "audio|random|0.5",
+      "group": "local",
+      "modalities": [
+        "audio"
+      ],
+      "rate": 0.5,
+      "position": "random",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.6126373626373627,
+        "macro_f1": 0.5475256087685901,
+        "negative_recall": 0.6601941747572816,
+        "neutral_recall": 0.21195652173913043,
+        "positive_recall": 0.8017751479289941,
+        "neutral_to_positive": 106,
+        "neutral_correct": 39,
+        "neutral_count": 184,
+        "mae": 0.6273823337099173,
+        "pearson": 0.6038802483366851,
+        "confusion_matrix": [
+          [
+            136,
+            13,
+            57
+          ],
+          [
+            39,
+            39,
+            106
+          ],
+          [
+            46,
+            21,
+            271
+          ]
+        ]
+      }
+    },
+    {
+      "name": "audio|random|0.7",
+      "group": "local",
+      "modalities": [
+        "audio"
+      ],
+      "rate": 0.7,
+      "position": "random",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.614010989010989,
+        "macro_f1": 0.5499885834650154,
+        "negative_recall": 0.6650485436893204,
+        "neutral_recall": 0.21739130434782608,
+        "positive_recall": 0.7988165680473372,
+        "neutral_to_positive": 104,
+        "neutral_correct": 40,
+        "neutral_count": 184,
+        "mae": 0.6282895848073147,
+        "pearson": 0.6021411690993435,
+        "confusion_matrix": [
+          [
+            137,
+            12,
+            57
+          ],
+          [
+            40,
+            40,
+            104
+          ],
+          [
+            50,
+            18,
+            270
+          ]
+        ]
+      }
+    },
+    {
+      "name": "vision|start|0.1",
+      "group": "local",
+      "modalities": [
+        "vision"
+      ],
+      "rate": 0.1,
+      "position": "start",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.6277472527472527,
+        "macro_f1": 0.5614023833658613,
+        "negative_recall": 0.6650485436893204,
+        "neutral_recall": 0.21739130434782608,
+        "positive_recall": 0.8284023668639053,
+        "neutral_to_positive": 108,
+        "neutral_correct": 40,
+        "neutral_count": 184,
+        "mae": 0.6257997655679451,
+        "pearson": 0.6063309914706835,
+        "confusion_matrix": [
+          [
+            137,
+            10,
+            59
+          ],
+          [
+            36,
+            40,
+            108
+          ],
+          [
+            42,
+            16,
+            280
+          ]
+        ]
+      }
+    },
+    {
+      "name": "vision|start|0.3",
+      "group": "local",
+      "modalities": [
+        "vision"
+      ],
+      "rate": 0.3,
+      "position": "start",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.6277472527472527,
+        "macro_f1": 0.5597978916757542,
+        "negative_recall": 0.6650485436893204,
+        "neutral_recall": 0.21195652173913043,
+        "positive_recall": 0.8313609467455622,
+        "neutral_to_positive": 109,
+        "neutral_correct": 39,
+        "neutral_count": 184,
+        "mae": 0.6265420161862794,
+        "pearson": 0.606795447823231,
+        "confusion_matrix": [
+          [
+            137,
+            11,
+            58
+          ],
+          [
+            36,
+            39,
+            109
+          ],
+          [
+            41,
+            16,
+            281
+          ]
+        ]
+      }
+    },
+    {
+      "name": "vision|start|0.5",
+      "group": "local",
+      "modalities": [
+        "vision"
+      ],
+      "rate": 0.5,
+      "position": "start",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.6263736263736264,
+        "macro_f1": 0.5556967112834205,
+        "negative_recall": 0.6699029126213593,
+        "neutral_recall": 0.20108695652173914,
+        "positive_recall": 0.8313609467455622,
+        "neutral_to_positive": 109,
+        "neutral_correct": 37,
+        "neutral_count": 184,
+        "mae": 0.6274309041442933,
+        "pearson": 0.6061911494150157,
+        "confusion_matrix": [
+          [
+            138,
+            10,
+            58
+          ],
+          [
+            38,
+            37,
+            109
+          ],
+          [
+            41,
+            16,
+            281
+          ]
+        ]
+      }
+    },
+    {
+      "name": "vision|start|0.7",
+      "group": "local",
+      "modalities": [
+        "vision"
+      ],
+      "rate": 0.7,
+      "position": "start",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.6263736263736264,
+        "macro_f1": 0.5561110628061328,
+        "negative_recall": 0.6747572815533981,
+        "neutral_recall": 0.20108695652173914,
+        "positive_recall": 0.8284023668639053,
+        "neutral_to_positive": 109,
+        "neutral_correct": 37,
+        "neutral_count": 184,
+        "mae": 0.6279623595221162,
+        "pearson": 0.6069610747042942,
+        "confusion_matrix": [
+          [
+            139,
+            10,
+            57
+          ],
+          [
+            38,
+            37,
+            109
+          ],
+          [
+            41,
+            17,
+            280
+          ]
+        ]
+      }
+    },
+    {
+      "name": "vision|middle|0.1",
+      "group": "local",
+      "modalities": [
+        "vision"
+      ],
+      "rate": 0.1,
+      "position": "middle",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.625,
+        "macro_f1": 0.5593678662907441,
+        "negative_recall": 0.6650485436893204,
+        "neutral_recall": 0.21739130434782608,
+        "positive_recall": 0.8224852071005917,
+        "neutral_to_positive": 108,
+        "neutral_correct": 40,
+        "neutral_count": 184,
+        "mae": 0.6256684776687237,
+        "pearson": 0.6064714965501016,
+        "confusion_matrix": [
+          [
+            137,
+            10,
+            59
+          ],
+          [
+            36,
+            40,
+            108
+          ],
+          [
+            43,
+            17,
+            278
+          ]
+        ]
+      }
+    },
+    {
+      "name": "vision|middle|0.3",
+      "group": "local",
+      "modalities": [
+        "vision"
+      ],
+      "rate": 0.3,
+      "position": "middle",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.6263736263736264,
+        "macro_f1": 0.5612955560952427,
+        "negative_recall": 0.6601941747572816,
+        "neutral_recall": 0.22282608695652173,
+        "positive_recall": 0.8254437869822485,
+        "neutral_to_positive": 106,
+        "neutral_correct": 41,
+        "neutral_count": 184,
+        "mae": 0.6253983984217764,
+        "pearson": 0.6069177443227118,
+        "confusion_matrix": [
+          [
+            136,
+            10,
+            60
+          ],
+          [
+            37,
+            41,
+            106
+          ],
+          [
+            43,
+            16,
+            279
+          ]
+        ]
+      }
+    },
+    {
+      "name": "vision|middle|0.5",
+      "group": "local",
+      "modalities": [
+        "vision"
+      ],
+      "rate": 0.5,
+      "position": "middle",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.6263736263736264,
+        "macro_f1": 0.5601556950862687,
+        "negative_recall": 0.6601941747572816,
+        "neutral_recall": 0.21739130434782608,
+        "positive_recall": 0.8284023668639053,
+        "neutral_to_positive": 109,
+        "neutral_correct": 40,
+        "neutral_count": 184,
+        "mae": 0.6247423689666582,
+        "pearson": 0.6071444727865642,
+        "confusion_matrix": [
+          [
+            136,
+            10,
+            60
+          ],
+          [
+            35,
+            40,
+            109
+          ],
+          [
+            43,
+            15,
+            280
+          ]
+        ]
+      }
+    },
+    {
+      "name": "vision|middle|0.7",
+      "group": "local",
+      "modalities": [
+        "vision"
+      ],
+      "rate": 0.7,
+      "position": "middle",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.6236263736263736,
+        "macro_f1": 0.5575936023264267,
+        "negative_recall": 0.6553398058252428,
+        "neutral_recall": 0.21739130434782608,
+        "positive_recall": 0.8254437869822485,
+        "neutral_to_positive": 108,
+        "neutral_correct": 40,
+        "neutral_count": 184,
+        "mae": 0.625707502215896,
+        "pearson": 0.6066329123120536,
+        "confusion_matrix": [
+          [
+            135,
+            10,
+            61
+          ],
+          [
+            36,
+            40,
+            108
+          ],
+          [
+            43,
+            16,
+            279
+          ]
+        ]
+      }
+    },
+    {
+      "name": "vision|end|0.1",
+      "group": "local",
+      "modalities": [
+        "vision"
+      ],
+      "rate": 0.1,
+      "position": "end",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.625,
+        "macro_f1": 0.5593678662907441,
+        "negative_recall": 0.6650485436893204,
+        "neutral_recall": 0.21739130434782608,
+        "positive_recall": 0.8224852071005917,
+        "neutral_to_positive": 108,
+        "neutral_correct": 40,
+        "neutral_count": 184,
+        "mae": 0.6255163071199914,
+        "pearson": 0.6062142498254258,
+        "confusion_matrix": [
+          [
+            137,
+            10,
+            59
+          ],
+          [
+            36,
+            40,
+            108
+          ],
+          [
+            43,
+            17,
+            278
+          ]
+        ]
+      }
+    },
+    {
+      "name": "vision|end|0.3",
+      "group": "local",
+      "modalities": [
+        "vision"
+      ],
+      "rate": 0.3,
+      "position": "end",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.6208791208791209,
+        "macro_f1": 0.5545898529269325,
+        "negative_recall": 0.6650485436893204,
+        "neutral_recall": 0.21195652173913043,
+        "positive_recall": 0.8165680473372781,
+        "neutral_to_positive": 108,
+        "neutral_correct": 39,
+        "neutral_count": 184,
+        "mae": 0.6256673354015859,
+        "pearson": 0.6056012040314093,
+        "confusion_matrix": [
+          [
+            137,
+            10,
+            59
+          ],
+          [
+            37,
+            39,
+            108
+          ],
+          [
+            44,
+            18,
+            276
+          ]
+        ]
+      }
+    },
+    {
+      "name": "vision|end|0.5",
+      "group": "local",
+      "modalities": [
+        "vision"
+      ],
+      "rate": 0.5,
+      "position": "end",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.625,
+        "macro_f1": 0.561433452530128,
+        "negative_recall": 0.6601941747572816,
+        "neutral_recall": 0.22826086956521738,
+        "positive_recall": 0.8195266272189349,
+        "neutral_to_positive": 104,
+        "neutral_correct": 42,
+        "neutral_count": 184,
+        "mae": 0.6252514214189672,
+        "pearson": 0.6052317492974396,
+        "confusion_matrix": [
+          [
+            136,
+            11,
+            59
+          ],
+          [
+            38,
+            42,
+            104
+          ],
+          [
+            44,
+            17,
+            277
+          ]
+        ]
+      }
+    },
+    {
+      "name": "vision|end|0.7",
+      "group": "local",
+      "modalities": [
+        "vision"
+      ],
+      "rate": 0.7,
+      "position": "end",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.625,
+        "macro_f1": 0.5661755627119308,
+        "negative_recall": 0.6601941747572816,
+        "neutral_recall": 0.24456521739130435,
+        "positive_recall": 0.8106508875739645,
+        "neutral_to_positive": 103,
+        "neutral_correct": 45,
+        "neutral_count": 184,
+        "mae": 0.6254257370537444,
+        "pearson": 0.6040681869958612,
+        "confusion_matrix": [
+          [
+            136,
+            11,
+            59
+          ],
+          [
+            36,
+            45,
+            103
+          ],
+          [
+            45,
+            19,
+            274
+          ]
+        ]
+      }
+    },
+    {
+      "name": "vision|random|0.1",
+      "group": "local",
+      "modalities": [
+        "vision"
+      ],
+      "rate": 0.1,
+      "position": "random",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.6277472527472527,
+        "macro_f1": 0.5614939493869633,
+        "negative_recall": 0.6650485436893204,
+        "neutral_recall": 0.21739130434782608,
+        "positive_recall": 0.8284023668639053,
+        "neutral_to_positive": 108,
+        "neutral_correct": 40,
+        "neutral_count": 184,
+        "mae": 0.6261027653651711,
+        "pearson": 0.6061456962317805,
+        "confusion_matrix": [
+          [
+            137,
+            10,
+            59
+          ],
+          [
+            36,
+            40,
+            108
+          ],
+          [
+            41,
+            17,
+            280
+          ]
+        ]
+      }
+    },
+    {
+      "name": "vision|random|0.3",
+      "group": "local",
+      "modalities": [
+        "vision"
+      ],
+      "rate": 0.3,
+      "position": "random",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.6263736263736264,
+        "macro_f1": 0.5612488064146823,
+        "negative_recall": 0.6601941747572816,
+        "neutral_recall": 0.22282608695652173,
+        "positive_recall": 0.8254437869822485,
+        "neutral_to_positive": 106,
+        "neutral_correct": 41,
+        "neutral_count": 184,
+        "mae": 0.6273603338817298,
+        "pearson": 0.6056563671050342,
+        "confusion_matrix": [
+          [
+            136,
+            11,
+            59
+          ],
+          [
+            37,
+            41,
+            106
+          ],
+          [
+            42,
+            17,
+            279
+          ]
+        ]
+      }
+    },
+    {
+      "name": "vision|random|0.5",
+      "group": "local",
+      "modalities": [
+        "vision"
+      ],
+      "rate": 0.5,
+      "position": "random",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.6236263736263736,
+        "macro_f1": 0.5549032381758423,
+        "negative_recall": 0.6650485436893204,
+        "neutral_recall": 0.20652173913043478,
+        "positive_recall": 0.8254437869822485,
+        "neutral_to_positive": 108,
+        "neutral_correct": 38,
+        "neutral_count": 184,
+        "mae": 0.6284747628884001,
+        "pearson": 0.6045850227999339,
+        "confusion_matrix": [
+          [
+            137,
+            10,
+            59
+          ],
+          [
+            38,
+            38,
+            108
+          ],
+          [
+            42,
+            17,
+            279
+          ]
+        ]
+      }
+    },
+    {
+      "name": "vision|random|0.7",
+      "group": "local",
+      "modalities": [
+        "vision"
+      ],
+      "rate": 0.7,
+      "position": "random",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.6318681318681318,
+        "macro_f1": 0.5660781681657202,
+        "negative_recall": 0.6699029126213593,
+        "neutral_recall": 0.22282608695652173,
+        "positive_recall": 0.8313609467455622,
+        "neutral_to_positive": 106,
+        "neutral_correct": 41,
+        "neutral_count": 184,
+        "mae": 0.6293224173720803,
+        "pearson": 0.60535113283273,
+        "confusion_matrix": [
+          [
+            138,
+            10,
+            58
+          ],
+          [
+            37,
+            41,
+            106
+          ],
+          [
+            42,
+            15,
+            281
+          ]
+        ]
+      }
+    },
+    {
+      "name": "text+audio|start|0.1",
+      "group": "local",
+      "modalities": [
+        "text",
+        "audio"
+      ],
+      "rate": 0.1,
+      "position": "start",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.6181318681318682,
+        "macro_f1": 0.5471789437384142,
+        "negative_recall": 0.6553398058252428,
+        "neutral_recall": 0.1956521739130435,
+        "positive_recall": 0.8254437869822485,
+        "neutral_to_positive": 111,
+        "neutral_correct": 36,
+        "neutral_count": 184,
+        "mae": 0.6334430381737568,
+        "pearson": 0.5953952973359224,
+        "confusion_matrix": [
+          [
+            135,
+            9,
+            62
+          ],
+          [
+            37,
+            36,
+            111
+          ],
+          [
+            43,
+            16,
+            279
+          ]
+        ]
+      }
+    },
+    {
+      "name": "text+audio|start|0.3",
+      "group": "local",
+      "modalities": [
+        "text",
+        "audio"
+      ],
+      "rate": 0.3,
+      "position": "start",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.5961538461538461,
+        "macro_f1": 0.5235159002629194,
+        "negative_recall": 0.6067961165048543,
+        "neutral_recall": 0.18478260869565216,
+        "positive_recall": 0.8136094674556213,
+        "neutral_to_positive": 109,
+        "neutral_correct": 34,
+        "neutral_count": 184,
+        "mae": 0.6779643219280322,
+        "pearson": 0.5288753349986043,
+        "confusion_matrix": [
+          [
+            125,
+            14,
+            67
+          ],
+          [
+            41,
+            34,
+            109
+          ],
+          [
+            40,
+            23,
+            275
+          ]
+        ]
+      }
+    },
+    {
+      "name": "text+audio|start|0.5",
+      "group": "local",
+      "modalities": [
+        "text",
+        "audio"
+      ],
+      "rate": 0.5,
+      "position": "start",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.5645604395604396,
+        "macro_f1": 0.5065095505448276,
+        "negative_recall": 0.5388349514563107,
+        "neutral_recall": 0.23369565217391305,
+        "positive_recall": 0.7603550295857988,
+        "neutral_to_positive": 97,
+        "neutral_correct": 43,
+        "neutral_count": 184,
+        "mae": 0.7073844186104528,
+        "pearson": 0.4754721134011838,
+        "confusion_matrix": [
+          [
+            111,
+            24,
+            71
+          ],
+          [
+            44,
+            43,
+            97
+          ],
+          [
+            47,
+            34,
+            257
+          ]
+        ]
+      }
+    },
+    {
+      "name": "text+audio|start|0.7",
+      "group": "local",
+      "modalities": [
+        "text",
+        "audio"
+      ],
+      "rate": 0.7,
+      "position": "start",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.5260989010989011,
+        "macro_f1": 0.4864186562560156,
+        "negative_recall": 0.45145631067961167,
+        "neutral_recall": 0.31521739130434784,
+        "positive_recall": 0.6863905325443787,
+        "neutral_to_positive": 89,
+        "neutral_correct": 58,
+        "neutral_count": 184,
+        "mae": 0.738307287535153,
+        "pearson": 0.3995175514134338,
+        "confusion_matrix": [
+          [
+            93,
+            38,
+            75
+          ],
+          [
+            37,
+            58,
+            89
+          ],
+          [
+            50,
+            56,
+            232
+          ]
+        ]
+      }
+    },
+    {
+      "name": "text+audio|middle|0.1",
+      "group": "local",
+      "modalities": [
+        "text",
+        "audio"
+      ],
+      "rate": 0.1,
+      "position": "middle",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.6318681318681318,
+        "macro_f1": 0.568091364938523,
+        "negative_recall": 0.6844660194174758,
+        "neutral_recall": 0.22826086956521738,
+        "positive_recall": 0.8195266272189349,
+        "neutral_to_positive": 104,
+        "neutral_correct": 42,
+        "neutral_count": 184,
+        "mae": 0.6236502938023717,
+        "pearson": 0.6010286173832828,
+        "confusion_matrix": [
+          [
+            141,
+            13,
+            52
+          ],
+          [
+            38,
+            42,
+            104
+          ],
+          [
+            43,
+            18,
+            277
+          ]
+        ]
+      }
+    },
+    {
+      "name": "text+audio|middle|0.3",
+      "group": "local",
+      "modalities": [
+        "text",
+        "audio"
+      ],
+      "rate": 0.3,
+      "position": "middle",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.603021978021978,
+        "macro_f1": 0.5515588136517117,
+        "negative_recall": 0.6067961165048543,
+        "neutral_recall": 0.2717391304347826,
+        "positive_recall": 0.7810650887573964,
+        "neutral_to_positive": 99,
+        "neutral_correct": 50,
+        "neutral_count": 184,
+        "mae": 0.6432355261960445,
+        "pearson": 0.5597574281899761,
+        "confusion_matrix": [
+          [
+            125,
+            18,
+            63
+          ],
+          [
+            35,
+            50,
+            99
+          ],
+          [
+            48,
+            26,
+            264
+          ]
+        ]
+      }
+    },
+    {
+      "name": "text+audio|middle|0.5",
+      "group": "local",
+      "modalities": [
+        "text",
+        "audio"
+      ],
+      "rate": 0.5,
+      "position": "middle",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.5782967032967034,
+        "macro_f1": 0.5302940097931362,
+        "negative_recall": 0.5679611650485437,
+        "neutral_recall": 0.27717391304347827,
+        "positive_recall": 0.7485207100591716,
+        "neutral_to_positive": 93,
+        "neutral_correct": 51,
+        "neutral_count": 184,
+        "mae": 0.6812643861912375,
+        "pearson": 0.5062594092316288,
+        "confusion_matrix": [
+          [
+            117,
+            25,
+            64
+          ],
+          [
+            40,
+            51,
+            93
+          ],
+          [
+            42,
+            43,
+            253
+          ]
+        ]
+      }
+    },
+    {
+      "name": "text+audio|middle|0.7",
+      "group": "local",
+      "modalities": [
+        "text",
+        "audio"
+      ],
+      "rate": 0.7,
+      "position": "middle",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.5343406593406593,
+        "macro_f1": 0.5053779037417918,
+        "negative_recall": 0.441747572815534,
+        "neutral_recall": 0.3967391304347826,
+        "positive_recall": 0.665680473372781,
+        "neutral_to_positive": 82,
+        "neutral_correct": 73,
+        "neutral_count": 184,
+        "mae": 0.7009522444952361,
+        "pearson": 0.4313999819377182,
+        "confusion_matrix": [
+          [
+            91,
+            44,
+            71
+          ],
+          [
+            29,
+            73,
+            82
+          ],
+          [
+            40,
+            73,
+            225
+          ]
+        ]
+      }
+    },
+    {
+      "name": "text+audio|end|0.1",
+      "group": "local",
+      "modalities": [
+        "text",
+        "audio"
+      ],
+      "rate": 0.1,
+      "position": "end",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.6236263736263736,
+        "macro_f1": 0.5638349102882296,
+        "negative_recall": 0.6699029126213593,
+        "neutral_recall": 0.2391304347826087,
+        "positive_recall": 0.8047337278106509,
+        "neutral_to_positive": 102,
+        "neutral_correct": 44,
+        "neutral_count": 184,
+        "mae": 0.6418459016655745,
+        "pearson": 0.5805803885055064,
+        "confusion_matrix": [
+          [
+            138,
+            13,
+            55
+          ],
+          [
+            38,
+            44,
+            102
+          ],
+          [
+            45,
+            21,
+            272
+          ]
+        ]
+      }
+    },
+    {
+      "name": "text+audio|end|0.3",
+      "group": "local",
+      "modalities": [
+        "text",
+        "audio"
+      ],
+      "rate": 0.3,
+      "position": "end",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.5782967032967034,
+        "macro_f1": 0.5294128937913049,
+        "negative_recall": 0.616504854368932,
+        "neutral_recall": 0.2554347826086957,
+        "positive_recall": 0.7307692307692307,
+        "neutral_to_positive": 99,
+        "neutral_correct": 47,
+        "neutral_count": 184,
+        "mae": 0.6539070740006966,
+        "pearson": 0.5457793808949515,
+        "confusion_matrix": [
+          [
+            127,
+            23,
+            56
+          ],
+          [
+            38,
+            47,
+            99
+          ],
+          [
+            54,
+            37,
+            247
+          ]
+        ]
+      }
+    },
+    {
+      "name": "text+audio|end|0.5",
+      "group": "local",
+      "modalities": [
+        "text",
+        "audio"
+      ],
+      "rate": 0.5,
+      "position": "end",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.5618131868131868,
+        "macro_f1": 0.5266208071122669,
+        "negative_recall": 0.5922330097087378,
+        "neutral_recall": 0.30978260869565216,
+        "positive_recall": 0.6804733727810651,
+        "neutral_to_positive": 92,
+        "neutral_correct": 57,
+        "neutral_count": 184,
+        "mae": 0.6898843655399505,
+        "pearson": 0.47507718289349565,
+        "confusion_matrix": [
+          [
+            122,
+            26,
+            58
+          ],
+          [
+            35,
+            57,
+            92
+          ],
+          [
+            58,
+            50,
+            230
+          ]
+        ]
+      }
+    },
+    {
+      "name": "text+audio|end|0.7",
+      "group": "local",
+      "modalities": [
+        "text",
+        "audio"
+      ],
+      "rate": 0.7,
+      "position": "end",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.521978021978022,
+        "macro_f1": 0.5004820107676227,
+        "negative_recall": 0.470873786407767,
+        "neutral_recall": 0.41847826086956524,
+        "positive_recall": 0.6094674556213018,
+        "neutral_to_positive": 74,
+        "neutral_correct": 77,
+        "neutral_count": 184,
+        "mae": 0.7197531748250905,
+        "pearson": 0.4269814661077587,
+        "confusion_matrix": [
+          [
+            97,
+            59,
+            50
+          ],
+          [
+            33,
+            77,
+            74
+          ],
+          [
+            53,
+            79,
+            206
+          ]
+        ]
+      }
+    },
+    {
+      "name": "text+audio|random|0.1",
+      "group": "local",
+      "modalities": [
+        "text",
+        "audio"
+      ],
+      "rate": 0.1,
+      "position": "random",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.6167582417582418,
+        "macro_f1": 0.5534582432407896,
+        "negative_recall": 0.6553398058252428,
+        "neutral_recall": 0.22282608695652173,
+        "positive_recall": 0.8076923076923077,
+        "neutral_to_positive": 104,
+        "neutral_correct": 41,
+        "neutral_count": 184,
+        "mae": 0.6320112083160964,
+        "pearson": 0.5950332873833761,
+        "confusion_matrix": [
+          [
+            135,
+            11,
+            60
+          ],
+          [
+            39,
+            41,
+            104
+          ],
+          [
+            44,
+            21,
+            273
+          ]
+        ]
+      }
+    },
+    {
+      "name": "text+audio|random|0.3",
+      "group": "local",
+      "modalities": [
+        "text",
+        "audio"
+      ],
+      "rate": 0.3,
+      "position": "random",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.6112637362637363,
+        "macro_f1": 0.5578432689900992,
+        "negative_recall": 0.6359223300970874,
+        "neutral_recall": 0.266304347826087,
+        "positive_recall": 0.7840236686390533,
+        "neutral_to_positive": 95,
+        "neutral_correct": 49,
+        "neutral_count": 184,
+        "mae": 0.6459489859458939,
+        "pearson": 0.5578389090327261,
+        "confusion_matrix": [
+          [
+            131,
+            18,
+            57
+          ],
+          [
+            40,
+            49,
+            95
+          ],
+          [
+            48,
+            25,
+            265
+          ]
+        ]
+      }
+    },
+    {
+      "name": "text+audio|random|0.5",
+      "group": "local",
+      "modalities": [
+        "text",
+        "audio"
+      ],
+      "rate": 0.5,
+      "position": "random",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.5865384615384616,
+        "macro_f1": 0.5433533692946564,
+        "negative_recall": 0.5970873786407767,
+        "neutral_recall": 0.29891304347826086,
+        "positive_recall": 0.7366863905325444,
+        "neutral_to_positive": 91,
+        "neutral_correct": 55,
+        "neutral_count": 184,
+        "mae": 0.6735417566679234,
+        "pearson": 0.5140812522240675,
+        "confusion_matrix": [
+          [
+            123,
+            26,
+            57
+          ],
+          [
+            38,
+            55,
+            91
+          ],
+          [
+            47,
+            42,
+            249
+          ]
+        ]
+      }
+    },
+    {
+      "name": "text+audio|random|0.7",
+      "group": "local",
+      "modalities": [
+        "text",
+        "audio"
+      ],
+      "rate": 0.7,
+      "position": "random",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.5288461538461539,
+        "macro_f1": 0.4981480986496791,
+        "negative_recall": 0.4563106796116505,
+        "neutral_recall": 0.3695652173913043,
+        "positive_recall": 0.6597633136094675,
+        "neutral_to_positive": 81,
+        "neutral_correct": 68,
+        "neutral_count": 184,
+        "mae": 0.7151826058946497,
+        "pearson": 0.4269443600818404,
+        "confusion_matrix": [
+          [
+            94,
+            47,
+            65
+          ],
+          [
+            35,
+            68,
+            81
+          ],
+          [
+            44,
+            71,
+            223
+          ]
+        ]
+      }
+    },
+    {
+      "name": "text+vision|start|0.1",
+      "group": "local",
+      "modalities": [
+        "text",
+        "vision"
+      ],
+      "rate": 0.1,
+      "position": "start",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.6167582417582418,
+        "macro_f1": 0.5448669103282171,
+        "negative_recall": 0.6601941747572816,
+        "neutral_recall": 0.19021739130434784,
+        "positive_recall": 0.8224852071005917,
+        "neutral_to_positive": 112,
+        "neutral_correct": 35,
+        "neutral_count": 184,
+        "mae": 0.6333521066660799,
+        "pearson": 0.5957627066772945,
+        "confusion_matrix": [
+          [
+            136,
+            9,
+            61
+          ],
+          [
+            37,
+            35,
+            112
+          ],
+          [
+            44,
+            16,
+            278
+          ]
+        ]
+      }
+    },
+    {
+      "name": "text+vision|start|0.3",
+      "group": "local",
+      "modalities": [
+        "text",
+        "vision"
+      ],
+      "rate": 0.3,
+      "position": "start",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.6071428571428571,
+        "macro_f1": 0.5331381625415266,
+        "negative_recall": 0.6116504854368932,
+        "neutral_recall": 0.19021739130434784,
+        "positive_recall": 0.8313609467455622,
+        "neutral_to_positive": 108,
+        "neutral_correct": 35,
+        "neutral_count": 184,
+        "mae": 0.6761203798360529,
+        "pearson": 0.5318671516946806,
+        "confusion_matrix": [
+          [
+            126,
+            15,
+            65
+          ],
+          [
+            41,
+            35,
+            108
+          ],
+          [
+            38,
+            19,
+            281
+          ]
+        ]
+      }
+    },
+    {
+      "name": "text+vision|start|0.5",
+      "group": "local",
+      "modalities": [
+        "text",
+        "vision"
+      ],
+      "rate": 0.5,
+      "position": "start",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.5686813186813187,
+        "macro_f1": 0.5043838816384666,
+        "negative_recall": 0.5436893203883495,
+        "neutral_recall": 0.21195652173913043,
+        "positive_recall": 0.7781065088757396,
+        "neutral_to_positive": 100,
+        "neutral_correct": 39,
+        "neutral_count": 184,
+        "mae": 0.703984156572695,
+        "pearson": 0.4783490823588803,
+        "confusion_matrix": [
+          [
+            112,
+            20,
+            74
+          ],
+          [
+            45,
+            39,
+            100
+          ],
+          [
+            46,
+            29,
+            263
+          ]
+        ]
+      }
+    },
+    {
+      "name": "text+vision|start|0.7",
+      "group": "local",
+      "modalities": [
+        "text",
+        "vision"
+      ],
+      "rate": 0.7,
+      "position": "start",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.5274725274725275,
+        "macro_f1": 0.4934178938095218,
+        "negative_recall": 0.45145631067961167,
+        "neutral_recall": 0.34782608695652173,
+        "positive_recall": 0.6715976331360947,
+        "neutral_to_positive": 86,
+        "neutral_correct": 64,
+        "neutral_count": 184,
+        "mae": 0.7375651094378074,
+        "pearson": 0.40112115735420517,
+        "confusion_matrix": [
+          [
+            93,
+            34,
+            79
+          ],
+          [
+            34,
+            64,
+            86
+          ],
+          [
+            53,
+            58,
+            227
+          ]
+        ]
+      }
+    },
+    {
+      "name": "text+vision|middle|0.1",
+      "group": "local",
+      "modalities": [
+        "text",
+        "vision"
+      ],
+      "rate": 0.1,
+      "position": "middle",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.6304945054945055,
+        "macro_f1": 0.5695316085941086,
+        "negative_recall": 0.6796116504854369,
+        "neutral_recall": 0.2391304347826087,
+        "positive_recall": 0.8136094674556213,
+        "neutral_to_positive": 102,
+        "neutral_correct": 44,
+        "neutral_count": 184,
+        "mae": 0.6245851238759664,
+        "pearson": 0.6001132404367588,
+        "confusion_matrix": [
+          [
+            140,
+            13,
+            53
+          ],
+          [
+            38,
+            44,
+            102
+          ],
+          [
+            45,
+            18,
+            275
+          ]
+        ]
+      }
+    },
+    {
+      "name": "text+vision|middle|0.3",
+      "group": "local",
+      "modalities": [
+        "text",
+        "vision"
+      ],
+      "rate": 0.3,
+      "position": "middle",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.6098901098901099,
+        "macro_f1": 0.5611670530560459,
+        "negative_recall": 0.6116504854368932,
+        "neutral_recall": 0.28804347826086957,
+        "positive_recall": 0.7840236686390533,
+        "neutral_to_positive": 97,
+        "neutral_correct": 53,
+        "neutral_count": 184,
+        "mae": 0.6438969802444002,
+        "pearson": 0.5599628914758475,
+        "confusion_matrix": [
+          [
+            126,
+            17,
+            63
+          ],
+          [
+            34,
+            53,
+            97
+          ],
+          [
+            46,
+            27,
+            265
+          ]
+        ]
+      }
+    },
+    {
+      "name": "text+vision|middle|0.5",
+      "group": "local",
+      "modalities": [
+        "text",
+        "vision"
+      ],
+      "rate": 0.5,
+      "position": "middle",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.5824175824175825,
+        "macro_f1": 0.5383603429553855,
+        "negative_recall": 0.5728155339805825,
+        "neutral_recall": 0.29891304347826086,
+        "positive_recall": 0.742603550295858,
+        "neutral_to_positive": 90,
+        "neutral_correct": 55,
+        "neutral_count": 184,
+        "mae": 0.6809019566248785,
+        "pearson": 0.5059911436622859,
+        "confusion_matrix": [
+          [
+            118,
+            22,
+            66
+          ],
+          [
+            39,
+            55,
+            90
+          ],
+          [
+            46,
+            41,
+            251
+          ]
+        ]
+      }
+    },
+    {
+      "name": "text+vision|middle|0.7",
+      "group": "local",
+      "modalities": [
+        "text",
+        "vision"
+      ],
+      "rate": 0.7,
+      "position": "middle",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.5315934065934066,
+        "macro_f1": 0.5038578434095523,
+        "negative_recall": 0.4563106796116505,
+        "neutral_recall": 0.3804347826086957,
+        "positive_recall": 0.6597633136094675,
+        "neutral_to_positive": 86,
+        "neutral_correct": 70,
+        "neutral_count": 184,
+        "mae": 0.7047309174808766,
+        "pearson": 0.42696591569959524,
+        "confusion_matrix": [
+          [
+            94,
+            41,
+            71
+          ],
+          [
+            28,
+            70,
+            86
+          ],
+          [
+            37,
+            78,
+            223
+          ]
+        ]
+      }
+    },
+    {
+      "name": "text+vision|end|0.1",
+      "group": "local",
+      "modalities": [
+        "text",
+        "vision"
+      ],
+      "rate": 0.1,
+      "position": "end",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.6208791208791209,
+        "macro_f1": 0.5587566898314562,
+        "negative_recall": 0.6699029126213593,
+        "neutral_recall": 0.22826086956521738,
+        "positive_recall": 0.8047337278106509,
+        "neutral_to_positive": 103,
+        "neutral_correct": 42,
+        "neutral_count": 184,
+        "mae": 0.6419129893759389,
+        "pearson": 0.580993019811372,
+        "confusion_matrix": [
+          [
+            138,
+            13,
+            55
+          ],
+          [
+            39,
+            42,
+            103
+          ],
+          [
+            45,
+            21,
+            272
+          ]
+        ]
+      }
+    },
+    {
+      "name": "text+vision|end|0.3",
+      "group": "local",
+      "modalities": [
+        "text",
+        "vision"
+      ],
+      "rate": 0.3,
+      "position": "end",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.5824175824175825,
+        "macro_f1": 0.5336736257683069,
+        "negative_recall": 0.6213592233009708,
+        "neutral_recall": 0.2608695652173913,
+        "positive_recall": 0.7337278106508875,
+        "neutral_to_positive": 97,
+        "neutral_correct": 48,
+        "neutral_count": 184,
+        "mae": 0.6551572387055545,
+        "pearson": 0.5462543903447559,
+        "confusion_matrix": [
+          [
+            128,
+            22,
+            56
+          ],
+          [
+            39,
+            48,
+            97
+          ],
+          [
+            57,
+            33,
+            248
+          ]
+        ]
+      }
+    },
+    {
+      "name": "text+vision|end|0.5",
+      "group": "local",
+      "modalities": [
+        "text",
+        "vision"
+      ],
+      "rate": 0.5,
+      "position": "end",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.5439560439560439,
+        "macro_f1": 0.5137207446359316,
+        "negative_recall": 0.5728155339805825,
+        "neutral_recall": 0.32608695652173914,
+        "positive_recall": 0.6449704142011834,
+        "neutral_to_positive": 88,
+        "neutral_correct": 60,
+        "neutral_count": 184,
+        "mae": 0.6898830496459166,
+        "pearson": 0.4749222941239831,
+        "confusion_matrix": [
+          [
+            118,
+            29,
+            59
+          ],
+          [
+            36,
+            60,
+            88
+          ],
+          [
+            66,
+            54,
+            218
+          ]
+        ]
+      }
+    },
+    {
+      "name": "text+vision|end|0.7",
+      "group": "local",
+      "modalities": [
+        "text",
+        "vision"
+      ],
+      "rate": 0.7,
+      "position": "end",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.5082417582417582,
+        "macro_f1": 0.4908507082658904,
+        "negative_recall": 0.4563106796116505,
+        "neutral_recall": 0.44021739130434784,
+        "positive_recall": 0.5769230769230769,
+        "neutral_to_positive": 69,
+        "neutral_correct": 81,
+        "neutral_count": 184,
+        "mae": 0.7216696550476027,
+        "pearson": 0.42603308893089015,
+        "confusion_matrix": [
+          [
+            94,
+            58,
+            54
+          ],
+          [
+            34,
+            81,
+            69
+          ],
+          [
+            53,
+            90,
+            195
+          ]
+        ]
+      }
+    },
+    {
+      "name": "text+vision|random|0.1",
+      "group": "local",
+      "modalities": [
+        "text",
+        "vision"
+      ],
+      "rate": 0.1,
+      "position": "random",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.6181318681318682,
+        "macro_f1": 0.5532878474646729,
+        "negative_recall": 0.6553398058252428,
+        "neutral_recall": 0.21739130434782608,
+        "positive_recall": 0.8136094674556213,
+        "neutral_to_positive": 106,
+        "neutral_correct": 40,
+        "neutral_count": 184,
+        "mae": 0.6318173019770676,
+        "pearson": 0.5956533023493378,
+        "confusion_matrix": [
+          [
+            135,
+            11,
+            60
+          ],
+          [
+            38,
+            40,
+            106
+          ],
+          [
+            42,
+            21,
+            275
+          ]
+        ]
+      }
+    },
+    {
+      "name": "text+vision|random|0.3",
+      "group": "local",
+      "modalities": [
+        "text",
+        "vision"
+      ],
+      "rate": 0.3,
+      "position": "random",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.6098901098901099,
+        "macro_f1": 0.5538091204704324,
+        "negative_recall": 0.6310679611650486,
+        "neutral_recall": 0.2554347826086957,
+        "positive_recall": 0.7899408284023669,
+        "neutral_to_positive": 97,
+        "neutral_correct": 47,
+        "neutral_count": 184,
+        "mae": 0.6454813754983031,
+        "pearson": 0.5586164896299841,
+        "confusion_matrix": [
+          [
+            130,
+            18,
+            58
+          ],
+          [
+            40,
+            47,
+            97
+          ],
+          [
+            48,
+            23,
+            267
+          ]
+        ]
+      }
+    },
+    {
+      "name": "text+vision|random|0.5",
+      "group": "local",
+      "modalities": [
+        "text",
+        "vision"
+      ],
+      "rate": 0.5,
+      "position": "random",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.5879120879120879,
+        "macro_f1": 0.540177332724487,
+        "negative_recall": 0.587378640776699,
+        "neutral_recall": 0.2826086956521739,
+        "positive_recall": 0.7544378698224852,
+        "neutral_to_positive": 94,
+        "neutral_correct": 52,
+        "neutral_count": 184,
+        "mae": 0.6719684904792402,
+        "pearson": 0.5146247356889775,
+        "confusion_matrix": [
+          [
+            121,
+            25,
+            60
+          ],
+          [
+            38,
+            52,
+            94
+          ],
+          [
+            46,
+            37,
+            255
+          ]
+        ]
+      }
+    },
+    {
+      "name": "text+vision|random|0.7",
+      "group": "local",
+      "modalities": [
+        "text",
+        "vision"
+      ],
+      "rate": 0.7,
+      "position": "random",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.521978021978022,
+        "macro_f1": 0.4966013211526854,
+        "negative_recall": 0.45145631067961167,
+        "neutral_recall": 0.40217391304347827,
+        "positive_recall": 0.6301775147928994,
+        "neutral_to_positive": 78,
+        "neutral_correct": 74,
+        "neutral_count": 184,
+        "mae": 0.7108827245646863,
+        "pearson": 0.4326863194889505,
+        "confusion_matrix": [
+          [
+            93,
+            54,
+            59
+          ],
+          [
+            32,
+            74,
+            78
+          ],
+          [
+            50,
+            75,
+            213
+          ]
+        ]
+      }
+    },
+    {
+      "name": "audio+vision|start|0.1",
+      "group": "local",
+      "modalities": [
+        "audio",
+        "vision"
+      ],
+      "rate": 0.1,
+      "position": "start",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.6277472527472527,
+        "macro_f1": 0.5614939493869633,
+        "negative_recall": 0.6650485436893204,
+        "neutral_recall": 0.21739130434782608,
+        "positive_recall": 0.8284023668639053,
+        "neutral_to_positive": 108,
+        "neutral_correct": 40,
+        "neutral_count": 184,
+        "mae": 0.6260232773972777,
+        "pearson": 0.6060949690709891,
+        "confusion_matrix": [
+          [
+            137,
+            10,
+            59
+          ],
+          [
+            36,
+            40,
+            108
+          ],
+          [
+            41,
+            17,
+            280
+          ]
+        ]
+      }
+    },
+    {
+      "name": "audio+vision|start|0.3",
+      "group": "local",
+      "modalities": [
+        "audio",
+        "vision"
+      ],
+      "rate": 0.3,
+      "position": "start",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.6167582417582418,
+        "macro_f1": 0.5517094266033328,
+        "negative_recall": 0.6650485436893204,
+        "neutral_recall": 0.21195652173913043,
+        "positive_recall": 0.8076923076923077,
+        "neutral_to_positive": 108,
+        "neutral_correct": 39,
+        "neutral_count": 184,
+        "mae": 0.6285099476616789,
+        "pearson": 0.6051286132503702,
+        "confusion_matrix": [
+          [
+            137,
+            9,
+            60
+          ],
+          [
+            37,
+            39,
+            108
+          ],
+          [
+            45,
+            20,
+            273
+          ]
+        ]
+      }
+    },
+    {
+      "name": "audio+vision|start|0.5",
+      "group": "local",
+      "modalities": [
+        "audio",
+        "vision"
+      ],
+      "rate": 0.5,
+      "position": "start",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.6098901098901099,
+        "macro_f1": 0.5414394837878136,
+        "negative_recall": 0.6699029126213593,
+        "neutral_recall": 0.1956521739130435,
+        "positive_recall": 0.7988165680473372,
+        "neutral_to_positive": 107,
+        "neutral_correct": 36,
+        "neutral_count": 184,
+        "mae": 0.6327200281311589,
+        "pearson": 0.6039518645827447,
+        "confusion_matrix": [
+          [
+            138,
+            10,
+            58
+          ],
+          [
+            41,
+            36,
+            107
+          ],
+          [
+            47,
+            21,
+            270
+          ]
+        ]
+      }
+    },
+    {
+      "name": "audio+vision|start|0.7",
+      "group": "local",
+      "modalities": [
+        "audio",
+        "vision"
+      ],
+      "rate": 0.7,
+      "position": "start",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.6057692307692307,
+        "macro_f1": 0.5394116155345926,
+        "negative_recall": 0.6650485436893204,
+        "neutral_recall": 0.20108695652173914,
+        "positive_recall": 0.7899408284023669,
+        "neutral_to_positive": 105,
+        "neutral_correct": 37,
+        "neutral_count": 184,
+        "mae": 0.6352653561561665,
+        "pearson": 0.6024877659019435,
+        "confusion_matrix": [
+          [
+            137,
+            10,
+            59
+          ],
+          [
+            42,
+            37,
+            105
+          ],
+          [
+            49,
+            22,
+            267
+          ]
+        ]
+      }
+    },
+    {
+      "name": "audio+vision|middle|0.1",
+      "group": "local",
+      "modalities": [
+        "audio",
+        "vision"
+      ],
+      "rate": 0.1,
+      "position": "middle",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.625,
+        "macro_f1": 0.5576994305419348,
+        "negative_recall": 0.6650485436893204,
+        "neutral_recall": 0.21195652173913043,
+        "positive_recall": 0.8254437869822485,
+        "neutral_to_positive": 109,
+        "neutral_correct": 39,
+        "neutral_count": 184,
+        "mae": 0.625216032977083,
+        "pearson": 0.6075991999846743,
+        "confusion_matrix": [
+          [
+            137,
+            10,
+            59
+          ],
+          [
+            36,
+            39,
+            109
+          ],
+          [
+            44,
+            15,
+            279
+          ]
+        ]
+      }
+    },
+    {
+      "name": "audio+vision|middle|0.3",
+      "group": "local",
+      "modalities": [
+        "audio",
+        "vision"
+      ],
+      "rate": 0.3,
+      "position": "middle",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.625,
+        "macro_f1": 0.557596094510863,
+        "negative_recall": 0.6650485436893204,
+        "neutral_recall": 0.21195652173913043,
+        "positive_recall": 0.8254437869822485,
+        "neutral_to_positive": 109,
+        "neutral_correct": 39,
+        "neutral_count": 184,
+        "mae": 0.6247756913896639,
+        "pearson": 0.608205985226574,
+        "confusion_matrix": [
+          [
+            137,
+            9,
+            60
+          ],
+          [
+            36,
+            39,
+            109
+          ],
+          [
+            47,
+            12,
+            279
+          ]
+        ]
+      }
+    },
+    {
+      "name": "audio+vision|middle|0.5",
+      "group": "local",
+      "modalities": [
+        "audio",
+        "vision"
+      ],
+      "rate": 0.5,
+      "position": "middle",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.6222527472527473,
+        "macro_f1": 0.5544699839973687,
+        "negative_recall": 0.6553398058252428,
+        "neutral_recall": 0.21195652173913043,
+        "positive_recall": 0.8254437869822485,
+        "neutral_to_positive": 108,
+        "neutral_correct": 39,
+        "neutral_count": 184,
+        "mae": 0.6251226460080144,
+        "pearson": 0.6084691845883952,
+        "confusion_matrix": [
+          [
+            135,
+            11,
+            60
+          ],
+          [
+            37,
+            39,
+            108
+          ],
+          [
+            46,
+            13,
+            279
+          ]
+        ]
+      }
+    },
+    {
+      "name": "audio+vision|middle|0.7",
+      "group": "local",
+      "modalities": [
+        "audio",
+        "vision"
+      ],
+      "rate": 0.7,
+      "position": "middle",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.6236263736263736,
+        "macro_f1": 0.55976530963804,
+        "negative_recall": 0.6650485436893204,
+        "neutral_recall": 0.22282608695652173,
+        "positive_recall": 0.8165680473372781,
+        "neutral_to_positive": 107,
+        "neutral_correct": 41,
+        "neutral_count": 184,
+        "mae": 0.6270392757116376,
+        "pearson": 0.6086307272298161,
+        "confusion_matrix": [
+          [
+            137,
+            9,
+            60
+          ],
+          [
+            36,
+            41,
+            107
+          ],
+          [
+            47,
+            15,
+            276
+          ]
+        ]
+      }
+    },
+    {
+      "name": "audio+vision|end|0.1",
+      "group": "local",
+      "modalities": [
+        "audio",
+        "vision"
+      ],
+      "rate": 0.1,
+      "position": "end",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.6277472527472527,
+        "macro_f1": 0.5614939493869633,
+        "negative_recall": 0.6650485436893204,
+        "neutral_recall": 0.21739130434782608,
+        "positive_recall": 0.8284023668639053,
+        "neutral_to_positive": 108,
+        "neutral_correct": 40,
+        "neutral_count": 184,
+        "mae": 0.625365349617953,
+        "pearson": 0.6058475970008832,
+        "confusion_matrix": [
+          [
+            137,
+            10,
+            59
+          ],
+          [
+            36,
+            40,
+            108
+          ],
+          [
+            41,
+            17,
+            280
+          ]
+        ]
+      }
+    },
+    {
+      "name": "audio+vision|end|0.3",
+      "group": "local",
+      "modalities": [
+        "audio",
+        "vision"
+      ],
+      "rate": 0.3,
+      "position": "end",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.6291208791208791,
+        "macro_f1": 0.5622516402660737,
+        "negative_recall": 0.6650485436893204,
+        "neutral_recall": 0.21739130434782608,
+        "positive_recall": 0.8313609467455622,
+        "neutral_to_positive": 107,
+        "neutral_correct": 40,
+        "neutral_count": 184,
+        "mae": 0.6243088702379552,
+        "pearson": 0.6051874966735736,
+        "confusion_matrix": [
+          [
+            137,
+            10,
+            59
+          ],
+          [
+            37,
+            40,
+            107
+          ],
+          [
+            41,
+            16,
+            281
+          ]
+        ]
+      }
+    },
+    {
+      "name": "audio+vision|end|0.5",
+      "group": "local",
+      "modalities": [
+        "audio",
+        "vision"
+      ],
+      "rate": 0.5,
+      "position": "end",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.6236263736263736,
+        "macro_f1": 0.5584614977122747,
+        "negative_recall": 0.6601941747572816,
+        "neutral_recall": 0.21739130434782608,
+        "positive_recall": 0.8224852071005917,
+        "neutral_to_positive": 109,
+        "neutral_correct": 40,
+        "neutral_count": 184,
+        "mae": 0.6232903929252004,
+        "pearson": 0.6035660665136673,
+        "confusion_matrix": [
+          [
+            136,
+            8,
+            62
+          ],
+          [
+            35,
+            40,
+            109
+          ],
+          [
+            43,
+            17,
+            278
+          ]
+        ]
+      }
+    },
+    {
+      "name": "audio+vision|end|0.7",
+      "group": "local",
+      "modalities": [
+        "audio",
+        "vision"
+      ],
+      "rate": 0.7,
+      "position": "end",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.6181318681318682,
+        "macro_f1": 0.554259114640201,
+        "negative_recall": 0.6601941747572816,
+        "neutral_recall": 0.21739130434782608,
+        "positive_recall": 0.8106508875739645,
+        "neutral_to_positive": 110,
+        "neutral_correct": 40,
+        "neutral_count": 184,
+        "mae": 0.6235028591754099,
+        "pearson": 0.603469090297323,
+        "confusion_matrix": [
+          [
+            136,
+            10,
+            60
+          ],
+          [
+            34,
+            40,
+            110
+          ],
+          [
+            46,
+            18,
+            274
+          ]
+        ]
+      }
+    },
+    {
+      "name": "audio+vision|random|0.1",
+      "group": "local",
+      "modalities": [
+        "audio",
+        "vision"
+      ],
+      "rate": 0.1,
+      "position": "random",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.6277472527472527,
+        "macro_f1": 0.5596059837348784,
+        "negative_recall": 0.6650485436893204,
+        "neutral_recall": 0.21195652173913043,
+        "positive_recall": 0.8313609467455622,
+        "neutral_to_positive": 108,
+        "neutral_correct": 39,
+        "neutral_count": 184,
+        "mae": 0.6269336173408102,
+        "pearson": 0.6055441705058058,
+        "confusion_matrix": [
+          [
+            137,
+            10,
+            59
+          ],
+          [
+            37,
+            39,
+            108
+          ],
+          [
+            42,
+            15,
+            281
+          ]
+        ]
+      }
+    },
+    {
+      "name": "audio+vision|random|0.3",
+      "group": "local",
+      "modalities": [
+        "audio",
+        "vision"
+      ],
+      "rate": 0.3,
+      "position": "random",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.6277472527472527,
+        "macro_f1": 0.5643238589752961,
+        "negative_recall": 0.6553398058252428,
+        "neutral_recall": 0.23369565217391305,
+        "positive_recall": 0.8254437869822485,
+        "neutral_to_positive": 102,
+        "neutral_correct": 43,
+        "neutral_count": 184,
+        "mae": 0.6280923548671365,
+        "pearson": 0.6050421506189045,
+        "confusion_matrix": [
+          [
+            135,
+            12,
+            59
+          ],
+          [
+            39,
+            43,
+            102
+          ],
+          [
+            42,
+            17,
+            279
+          ]
+        ]
+      }
+    },
+    {
+      "name": "audio+vision|random|0.5",
+      "group": "local",
+      "modalities": [
+        "audio",
+        "vision"
+      ],
+      "rate": 0.5,
+      "position": "random",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.6195054945054945,
+        "macro_f1": 0.5563936251926314,
+        "negative_recall": 0.6504854368932039,
+        "neutral_recall": 0.22826086956521738,
+        "positive_recall": 0.8136094674556213,
+        "neutral_to_positive": 102,
+        "neutral_correct": 42,
+        "neutral_count": 184,
+        "mae": 0.6307682170977836,
+        "pearson": 0.6021596194388237,
+        "confusion_matrix": [
+          [
+            134,
+            11,
+            61
+          ],
+          [
+            40,
+            42,
+            102
+          ],
+          [
+            43,
+            20,
+            275
+          ]
+        ]
+      }
+    },
+    {
+      "name": "audio+vision|random|0.7",
+      "group": "local",
+      "modalities": [
+        "audio",
+        "vision"
+      ],
+      "rate": 0.7,
+      "position": "random",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.6112637362637363,
+        "macro_f1": 0.5501350068576883,
+        "negative_recall": 0.6456310679611651,
+        "neutral_recall": 0.22826086956521738,
+        "positive_recall": 0.7988165680473372,
+        "neutral_to_positive": 104,
+        "neutral_correct": 42,
+        "neutral_count": 184,
+        "mae": 0.6330805657854288,
+        "pearson": 0.6010965155996343,
+        "confusion_matrix": [
+          [
+            133,
+            11,
+            62
+          ],
+          [
+            38,
+            42,
+            104
+          ],
+          [
+            48,
+            20,
+            270
+          ]
+        ]
+      }
+    },
+    {
+      "name": "text+audio+vision|start|0.1",
+      "group": "local",
+      "modalities": [
+        "text",
+        "audio",
+        "vision"
+      ],
+      "rate": 0.1,
+      "position": "start",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.6195054945054945,
+        "macro_f1": 0.548550549551448,
+        "negative_recall": 0.6601941747572816,
+        "neutral_recall": 0.1956521739130435,
+        "positive_recall": 0.8254437869822485,
+        "neutral_to_positive": 111,
+        "neutral_correct": 36,
+        "neutral_count": 184,
+        "mae": 0.6335191651411191,
+        "pearson": 0.5954914514930982,
+        "confusion_matrix": [
+          [
+            136,
+            9,
+            61
+          ],
+          [
+            37,
+            36,
+            111
+          ],
+          [
+            43,
+            16,
+            279
+          ]
+        ]
+      }
+    },
+    {
+      "name": "text+audio+vision|start|0.3",
+      "group": "local",
+      "modalities": [
+        "text",
+        "audio",
+        "vision"
+      ],
+      "rate": 0.3,
+      "position": "start",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.5961538461538461,
+        "macro_f1": 0.5245121563705404,
+        "negative_recall": 0.6019417475728155,
+        "neutral_recall": 0.19021739130434784,
+        "positive_recall": 0.8136094674556213,
+        "neutral_to_positive": 108,
+        "neutral_correct": 35,
+        "neutral_count": 184,
+        "mae": 0.6785174469942621,
+        "pearson": 0.5295667673930747,
+        "confusion_matrix": [
+          [
+            124,
+            14,
+            68
+          ],
+          [
+            41,
+            35,
+            108
+          ],
+          [
+            41,
+            22,
+            275
+          ]
+        ]
+      }
+    },
+    {
+      "name": "text+audio+vision|start|0.5",
+      "group": "local",
+      "modalities": [
+        "text",
+        "audio",
+        "vision"
+      ],
+      "rate": 0.5,
+      "position": "start",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.5604395604395604,
+        "macro_f1": 0.49935211612251496,
+        "negative_recall": 0.5388349514563107,
+        "neutral_recall": 0.21739130434782608,
+        "positive_recall": 0.7603550295857988,
+        "neutral_to_positive": 100,
+        "neutral_correct": 40,
+        "neutral_count": 184,
+        "mae": 0.7083151575307756,
+        "pearson": 0.47596093400351924,
+        "confusion_matrix": [
+          [
+            111,
+            25,
+            70
+          ],
+          [
+            44,
+            40,
+            100
+          ],
+          [
+            49,
+            32,
+            257
+          ]
+        ]
+      }
+    },
+    {
+      "name": "text+audio+vision|start|0.7",
+      "group": "local",
+      "modalities": [
+        "text",
+        "audio",
+        "vision"
+      ],
+      "rate": 0.7,
+      "position": "start",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.5178571428571429,
+        "macro_f1": 0.47784478235865135,
+        "negative_recall": 0.44660194174757284,
+        "neutral_recall": 0.30434782608695654,
+        "positive_recall": 0.6775147928994083,
+        "neutral_to_positive": 90,
+        "neutral_correct": 56,
+        "neutral_count": 184,
+        "mae": 0.7405892354257119,
+        "pearson": 0.40075583240159474,
+        "confusion_matrix": [
+          [
+            92,
+            37,
+            77
+          ],
+          [
+            38,
+            56,
+            90
+          ],
+          [
+            52,
+            57,
+            229
+          ]
+        ]
+      }
+    },
+    {
+      "name": "text+audio+vision|middle|0.1",
+      "group": "local",
+      "modalities": [
+        "text",
+        "audio",
+        "vision"
+      ],
+      "rate": 0.1,
+      "position": "middle",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.6291208791208791,
+        "macro_f1": 0.5656690546322897,
+        "negative_recall": 0.6796116504854369,
+        "neutral_recall": 0.22826086956521738,
+        "positive_recall": 0.8165680473372781,
+        "neutral_to_positive": 104,
+        "neutral_correct": 42,
+        "neutral_count": 184,
+        "mae": 0.6238598237810388,
+        "pearson": 0.6012200244002351,
+        "confusion_matrix": [
+          [
+            140,
+            13,
+            53
+          ],
+          [
+            38,
+            42,
+            104
+          ],
+          [
+            44,
+            18,
+            276
+          ]
+        ]
+      }
+    },
+    {
+      "name": "text+audio+vision|middle|0.3",
+      "group": "local",
+      "modalities": [
+        "text",
+        "audio",
+        "vision"
+      ],
+      "rate": 0.3,
+      "position": "middle",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.6071428571428571,
+        "macro_f1": 0.5555921001943017,
+        "negative_recall": 0.616504854368932,
+        "neutral_recall": 0.2717391304347826,
+        "positive_recall": 0.7840236686390533,
+        "neutral_to_positive": 100,
+        "neutral_correct": 50,
+        "neutral_count": 184,
+        "mae": 0.6431398311972741,
+        "pearson": 0.5606320146504485,
+        "confusion_matrix": [
+          [
+            127,
+            18,
+            61
+          ],
+          [
+            34,
+            50,
+            100
+          ],
+          [
+            48,
+            25,
+            265
+          ]
+        ]
+      }
+    },
+    {
+      "name": "text+audio+vision|middle|0.5",
+      "group": "local",
+      "modalities": [
+        "text",
+        "audio",
+        "vision"
+      ],
+      "rate": 0.5,
+      "position": "middle",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.5769230769230769,
+        "macro_f1": 0.5297596082188863,
+        "negative_recall": 0.5679611650485437,
+        "neutral_recall": 0.27717391304347827,
+        "positive_recall": 0.7455621301775148,
+        "neutral_to_positive": 95,
+        "neutral_correct": 51,
+        "neutral_count": 184,
+        "mae": 0.6807703837729315,
+        "pearson": 0.5071466145288354,
+        "confusion_matrix": [
+          [
+            117,
+            24,
+            65
+          ],
+          [
+            38,
+            51,
+            95
+          ],
+          [
+            42,
+            44,
+            252
+          ]
+        ]
+      }
+    },
+    {
+      "name": "text+audio+vision|middle|0.7",
+      "group": "local",
+      "modalities": [
+        "text",
+        "audio",
+        "vision"
+      ],
+      "rate": 0.7,
+      "position": "middle",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.5315934065934066,
+        "macro_f1": 0.5036715389913523,
+        "negative_recall": 0.44660194174757284,
+        "neutral_recall": 0.391304347826087,
+        "positive_recall": 0.6597633136094675,
+        "neutral_to_positive": 83,
+        "neutral_correct": 72,
+        "neutral_count": 184,
+        "mae": 0.7024229788617998,
+        "pearson": 0.43229624641070535,
+        "confusion_matrix": [
+          [
+            92,
+            42,
+            72
+          ],
+          [
+            29,
+            72,
+            83
+          ],
+          [
+            38,
+            77,
+            223
+          ]
+        ]
+      }
+    },
+    {
+      "name": "text+audio+vision|end|0.1",
+      "group": "local",
+      "modalities": [
+        "text",
+        "audio",
+        "vision"
+      ],
+      "rate": 0.1,
+      "position": "end",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.6236263736263736,
+        "macro_f1": 0.5638349102882296,
+        "negative_recall": 0.6699029126213593,
+        "neutral_recall": 0.2391304347826087,
+        "positive_recall": 0.8047337278106509,
+        "neutral_to_positive": 102,
+        "neutral_correct": 44,
+        "neutral_count": 184,
+        "mae": 0.6418311170207665,
+        "pearson": 0.5805058957619914,
+        "confusion_matrix": [
+          [
+            138,
+            13,
+            55
+          ],
+          [
+            38,
+            44,
+            102
+          ],
+          [
+            45,
+            21,
+            272
+          ]
+        ]
+      }
+    },
+    {
+      "name": "text+audio+vision|end|0.3",
+      "group": "local",
+      "modalities": [
+        "text",
+        "audio",
+        "vision"
+      ],
+      "rate": 0.3,
+      "position": "end",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.5796703296703297,
+        "macro_f1": 0.532705638845693,
+        "negative_recall": 0.616504854368932,
+        "neutral_recall": 0.266304347826087,
+        "positive_recall": 0.727810650887574,
+        "neutral_to_positive": 97,
+        "neutral_correct": 49,
+        "neutral_count": 184,
+        "mae": 0.655147467856935,
+        "pearson": 0.5449535410596785,
+        "confusion_matrix": [
+          [
+            127,
+            21,
+            58
+          ],
+          [
+            38,
+            49,
+            97
+          ],
+          [
+            58,
+            34,
+            246
+          ]
+        ]
+      }
+    },
+    {
+      "name": "text+audio+vision|end|0.5",
+      "group": "local",
+      "modalities": [
+        "text",
+        "audio",
+        "vision"
+      ],
+      "rate": 0.5,
+      "position": "end",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.554945054945055,
+        "macro_f1": 0.5205118978568022,
+        "negative_recall": 0.5825242718446602,
+        "neutral_recall": 0.30978260869565216,
+        "positive_recall": 0.6715976331360947,
+        "neutral_to_positive": 92,
+        "neutral_correct": 57,
+        "neutral_count": 184,
+        "mae": 0.6893107805472727,
+        "pearson": 0.4744425823908619,
+        "confusion_matrix": [
+          [
+            120,
+            26,
+            60
+          ],
+          [
+            35,
+            57,
+            92
+          ],
+          [
+            61,
+            50,
+            227
+          ]
+        ]
+      }
+    },
+    {
+      "name": "text+audio+vision|end|0.7",
+      "group": "local",
+      "modalities": [
+        "text",
+        "audio",
+        "vision"
+      ],
+      "rate": 0.7,
+      "position": "end",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.5178571428571429,
+        "macro_f1": 0.4984207704033541,
+        "negative_recall": 0.46601941747572817,
+        "neutral_recall": 0.42934782608695654,
+        "positive_recall": 0.5976331360946746,
+        "neutral_to_positive": 72,
+        "neutral_correct": 79,
+        "neutral_count": 184,
+        "mae": 0.7197819547433467,
+        "pearson": 0.4243111226169496,
+        "confusion_matrix": [
+          [
+            96,
+            61,
+            49
+          ],
+          [
+            33,
+            79,
+            72
+          ],
+          [
+            50,
+            86,
+            202
+          ]
+        ]
+      }
+    },
+    {
+      "name": "text+audio+vision|random|0.1",
+      "group": "local",
+      "modalities": [
+        "text",
+        "audio",
+        "vision"
+      ],
+      "rate": 0.1,
+      "position": "random",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.6181318681318682,
+        "macro_f1": 0.5545165290702191,
+        "negative_recall": 0.6553398058252428,
+        "neutral_recall": 0.22282608695652173,
+        "positive_recall": 0.8106508875739645,
+        "neutral_to_positive": 104,
+        "neutral_correct": 41,
+        "neutral_count": 184,
+        "mae": 0.6324902199589965,
+        "pearson": 0.5949914335210429,
+        "confusion_matrix": [
+          [
+            135,
+            11,
+            60
+          ],
+          [
+            39,
+            41,
+            104
+          ],
+          [
+            43,
+            21,
+            274
+          ]
+        ]
+      }
+    },
+    {
+      "name": "text+audio+vision|random|0.3",
+      "group": "local",
+      "modalities": [
+        "text",
+        "audio",
+        "vision"
+      ],
+      "rate": 0.3,
+      "position": "random",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.6126373626373627,
+        "macro_f1": 0.5579289923555028,
+        "negative_recall": 0.6407766990291263,
+        "neutral_recall": 0.2608695652173913,
+        "positive_recall": 0.7869822485207101,
+        "neutral_to_positive": 95,
+        "neutral_correct": 48,
+        "neutral_count": 184,
+        "mae": 0.6462028515640298,
+        "pearson": 0.5584243908942854,
+        "confusion_matrix": [
+          [
+            132,
+            17,
+            57
+          ],
+          [
+            41,
+            48,
+            95
+          ],
+          [
+            47,
+            25,
+            266
+          ]
+        ]
+      }
+    },
+    {
+      "name": "text+audio+vision|random|0.5",
+      "group": "local",
+      "modalities": [
+        "text",
+        "audio",
+        "vision"
+      ],
+      "rate": 0.5,
+      "position": "random",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.5865384615384616,
+        "macro_f1": 0.5405967385886207,
+        "negative_recall": 0.5970873786407767,
+        "neutral_recall": 0.2826086956521739,
+        "positive_recall": 0.7455621301775148,
+        "neutral_to_positive": 96,
+        "neutral_correct": 52,
+        "neutral_count": 184,
+        "mae": 0.6733658911582276,
+        "pearson": 0.5144901261080567,
+        "confusion_matrix": [
+          [
+            123,
+            25,
+            58
+          ],
+          [
+            36,
+            52,
+            96
+          ],
+          [
+            45,
+            41,
+            252
+          ]
+        ]
+      }
+    },
+    {
+      "name": "text+audio+vision|random|0.7",
+      "group": "local",
+      "modalities": [
+        "text",
+        "audio",
+        "vision"
+      ],
+      "rate": 0.7,
+      "position": "random",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.5357142857142857,
+        "macro_f1": 0.5084880332980083,
+        "negative_recall": 0.46116504854368934,
+        "neutral_recall": 0.40217391304347827,
+        "positive_recall": 0.6538461538461539,
+        "neutral_to_positive": 78,
+        "neutral_correct": 74,
+        "neutral_count": 184,
+        "mae": 0.7155600045281552,
+        "pearson": 0.4268558384832019,
+        "confusion_matrix": [
+          [
+            95,
+            47,
+            64
+          ],
+          [
+            32,
+            74,
+            78
+          ],
+          [
+            46,
+            71,
+            221
+          ]
+        ]
+      }
+    },
+    {
+      "name": "text|whole_drop",
+      "group": "fully_missing",
+      "modalities": [
+        "text"
+      ],
+      "drop_scope": "entire_modality",
+      "position": "whole",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.36675824175824173,
+        "macro_f1": 0.3518589965984071,
+        "negative_recall": 0.5970873786407767,
+        "neutral_recall": 0.23369565217391305,
+        "positive_recall": 0.2988165680473373,
+        "neutral_to_positive": 38,
+        "neutral_correct": 43,
+        "neutral_count": 184,
+        "mae": 0.8114473652428816,
+        "pearson": 0.14362086101059934,
+        "confusion_matrix": [
+          [
+            123,
+            42,
+            41
+          ],
+          [
+            103,
+            43,
+            38
+          ],
+          [
+            179,
+            58,
+            101
+          ]
+        ]
+      }
+    },
+    {
+      "name": "audio|whole_drop",
+      "group": "fully_missing",
+      "modalities": [
+        "audio"
+      ],
+      "drop_scope": "entire_modality",
+      "position": "whole",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.6222527472527473,
+        "macro_f1": 0.5506666536742056,
+        "negative_recall": 0.6650485436893204,
+        "neutral_recall": 0.1956521739130435,
+        "positive_recall": 0.8284023668639053,
+        "neutral_to_positive": 110,
+        "neutral_correct": 36,
+        "neutral_count": 184,
+        "mae": 0.618278381691038,
+        "pearson": 0.6119707234924315,
+        "confusion_matrix": [
+          [
+            137,
+            10,
+            59
+          ],
+          [
+            38,
+            36,
+            110
+          ],
+          [
+            42,
+            16,
+            280
+          ]
+        ]
+      }
+    },
+    {
+      "name": "vision|whole_drop",
+      "group": "fully_missing",
+      "modalities": [
+        "vision"
+      ],
+      "drop_scope": "entire_modality",
+      "position": "whole",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.625,
+        "macro_f1": 0.5500929825092505,
+        "negative_recall": 0.6504854368932039,
+        "neutral_recall": 0.19021739130434784,
+        "positive_recall": 0.8461538461538461,
+        "neutral_to_positive": 115,
+        "neutral_correct": 35,
+        "neutral_count": 184,
+        "mae": 0.6325605432550899,
+        "pearson": 0.601123487539039,
+        "confusion_matrix": [
+          [
+            134,
+            13,
+            59
+          ],
+          [
+            34,
+            35,
+            115
+          ],
+          [
+            42,
+            10,
+            286
+          ]
+        ]
+      }
+    },
+    {
+      "name": "text+audio|whole_drop",
+      "group": "fully_missing",
+      "modalities": [
+        "text",
+        "audio"
+      ],
+      "drop_scope": "entire_modality",
+      "position": "whole",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.3447802197802198,
+        "macro_f1": 0.3372221213461444,
+        "negative_recall": 0.5679611650485437,
+        "neutral_recall": 0.30434782608695654,
+        "positive_recall": 0.23076923076923078,
+        "neutral_to_positive": 21,
+        "neutral_correct": 56,
+        "neutral_count": 184,
+        "mae": 0.800718119119935,
+        "pearson": 0.18852510233785838,
+        "confusion_matrix": [
+          [
+            117,
+            63,
+            26
+          ],
+          [
+            107,
+            56,
+            21
+          ],
+          [
+            166,
+            94,
+            78
+          ]
+        ]
+      }
+    },
+    {
+      "name": "text+vision|whole_drop",
+      "group": "fully_missing",
+      "modalities": [
+        "text",
+        "vision"
+      ],
+      "drop_scope": "entire_modality",
+      "position": "whole",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.33379120879120877,
+        "macro_f1": 0.31541996958386515,
+        "negative_recall": 0.470873786407767,
+        "neutral_recall": 0.1793478260869565,
+        "positive_recall": 0.3343195266272189,
+        "neutral_to_positive": 63,
+        "neutral_correct": 33,
+        "neutral_count": 184,
+        "mae": 0.7998383952375722,
+        "pearson": 0.025160579732195116,
+        "confusion_matrix": [
+          [
+            97,
+            26,
+            83
+          ],
+          [
+            88,
+            33,
+            63
+          ],
+          [
+            173,
+            52,
+            113
+          ]
+        ]
+      }
+    },
+    {
+      "name": "audio+vision|whole_drop",
+      "group": "fully_missing",
+      "modalities": [
+        "audio",
+        "vision"
+      ],
+      "drop_scope": "entire_modality",
+      "position": "whole",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.6181318681318682,
+        "macro_f1": 0.5361774976744784,
+        "negative_recall": 0.6310679611650486,
+        "neutral_recall": 0.16304347826086957,
+        "positive_recall": 0.8579881656804734,
+        "neutral_to_positive": 123,
+        "neutral_correct": 30,
+        "neutral_count": 184,
+        "mae": 0.626018980745697,
+        "pearson": 0.6038447809363701,
+        "confusion_matrix": [
+          [
+            130,
+            9,
+            67
+          ],
+          [
+            31,
+            30,
+            123
+          ],
+          [
+            38,
+            10,
+            290
+          ]
+        ]
+      }
+    },
+    {
+      "name": "text+audio+vision|whole_drop",
+      "group": "fully_missing",
+      "modalities": [
+        "text",
+        "audio",
+        "vision"
+      ],
+      "drop_scope": "entire_modality",
+      "position": "whole",
+      "seed": 101,
+      "metrics": {
+        "n": 728,
+        "accuracy": 0.28296703296703296,
+        "macro_f1": 0.1470378301213419,
+        "negative_recall": 1.0,
+        "neutral_recall": 0.0,
+        "positive_recall": 0.0,
+        "neutral_to_positive": 0,
+        "neutral_correct": 0,
+        "neutral_count": 184,
+        "mae": 0.7880705054440014,
+        "pearson": null,
+        "confusion_matrix": [
+          [
+            206,
+            0,
+            0
+          ],
+          [
+            184,
+            0,
+            0
+          ],
+          [
+            338,
+            0,
+            0
+          ]
+        ]
+      }
+    }
+  ],
+  "official_test_evaluated": false,
+  "output": "D:\\codex_projects\\projects\\Mathematical Modeling\\problem2\\outputs\\bert_postencoder_20260926\\packages\\pooled_systematic_120_cuda.json"
+}

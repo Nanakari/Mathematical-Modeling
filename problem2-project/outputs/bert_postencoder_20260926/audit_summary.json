@@ -1,0 +1,11 @@
+{
+  "data_file": "outputs/teacher_student_v5_20260924/data/train_valid_only_v5.pkl",
+  "data_sha256": "26eb21c32183a9b86151d20b3c2bc189241c3c17fe982f99889a51b7a7967196",
+  "official_test_included": false,
+  "splits": {
+    "train": {"n": 3395, "class_counts_negative_neutral_positive": [967, 758, 1670], "class_fractions": [0.2848306333, 0.2232695140, 0.4918998527], "regression_min": -3.0, "regression_max": 3.0, "regression_unique_count": 23, "class_sign_mapping_matches": 3395, "neutral_exact_zero": 758},
+    "valid": {"n": 728, "class_counts_negative_neutral_positive": [206, 184, 338], "class_fractions": [0.2829670330, 0.2527472527, 0.4642857143], "regression_min": -3.0, "regression_max": 3.0, "regression_unique_count": 22, "class_sign_mapping_matches": 728, "neutral_exact_zero": 184}
+  },
+  "verified_mapping": "classification_labels = sign(regression_labels) + 1; class 0 iff regression < 0, class 1 iff regression == 0, class 2 iff regression > 0",
+  "official_test_evaluated": false
+}

@@ -1,0 +1,54 @@
+{
+  "device": "cuda",
+  "official_test_accessed": false,
+  "packages": [
+    {
+      "candidate": "pooled",
+      "package": "outputs\\bert_postencoder_20260926\\packages\\pooled",
+      "package_sha256": "451c48a18e66d24d87a0c1ccd91696c0f24292ec2614d3f6359100d959e9fe16",
+      "directory_bytes": 24168353,
+      "zip_uncompressed_bytes": 24168353,
+      "systematic_result": "outputs\\bert_postencoder_20260926\\packages\\pooled_systematic_120_cuda.json",
+      "device": "cuda",
+      "scenario_count": 120,
+      "local_case_count": 112,
+      "fully_missing_case_count": 7,
+      "local_112_summary": {
+        "accuracy": 0.5985699568288856,
+        "macro_f1": 0.542284231495241,
+        "neutral_recall": 0.25412461180124213,
+        "neutral_to_positive": 100.09821428571429
+      },
+      "local_112_regression_summary": {
+        "mae_mean": 0.6534899071954312,
+        "pearson_mean_valid": 0.5532658214413586,
+        "pearson_valid_count": 112
+      },
+      "official_test_evaluated": false
+    },
+    {
+      "candidate": "content_gate",
+      "package": "outputs\\bert_postencoder_20260926\\packages\\content_gate",
+      "package_sha256": "c2d3264a6cf025dfceb6bbf13951abc4610b58a95d4fd6287482c6e5853533c8",
+      "directory_bytes": 24170880,
+      "zip_uncompressed_bytes": 24170880,
+      "systematic_result": "outputs\\bert_postencoder_20260926\\packages\\content_gate_systematic_120_cuda.json",
+      "device": "cuda",
+      "scenario_count": 120,
+      "local_case_count": 112,
+      "fully_missing_case_count": 7,
+      "local_112_summary": {
+        "accuracy": 0.5967180141287284,
+        "macro_f1": 0.5469034038355824,
+        "neutral_recall": 0.2723214285714287,
+        "neutral_to_positive": 93.09821428571429
+      },
+      "local_112_regression_summary": {
+        "mae_mean": 0.6489083879309439,
+        "pearson_mean_valid": 0.555445268427014,
+        "pearson_valid_count": 112
+      },
+      "official_test_evaluated": false
+    }
+  ]
+}

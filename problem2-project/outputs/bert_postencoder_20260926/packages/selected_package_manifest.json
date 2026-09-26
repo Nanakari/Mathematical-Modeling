@@ -1,0 +1,41 @@
+{
+  "precision": "fp16",
+  "max_bytes_strict": 50000000,
+  "official_test_accessed": false,
+  "packages": [
+    {
+      "candidate": "pooled",
+      "package": "outputs\\bert_postencoder_20260926\\packages\\pooled",
+      "zip": "outputs\\bert_postencoder_20260926\\packages\\pooled.zip",
+      "directory_bytes": 24168353,
+      "zip_bytes": 21574513,
+      "zip_uncompressed_bytes": 24168353,
+      "package_sha256": "451c48a18e66d24d87a0c1ccd91696c0f24292ec2614d3f6359100d959e9fe16",
+      "zip_sha256": "5e4f23a498ec5e672bab058dce3172a4d93b0e4c3e9feca7953aeef32b5010a6",
+      "package_reload_verified": true,
+      "validation_v4_32": "outputs\\bert_postencoder_20260926\\packages\\pooled_validation_v4_32.json",
+      "validation_package_reload_verified": true,
+      "validation_accuracy": 0.6263736263736264,
+      "validation_macro_f1": 0.5603412644678725,
+      "validation_missing_mean_accuracy": 0.607851825593761,
+      "official_test_evaluated": false
+    },
+    {
+      "candidate": "content_gate",
+      "package": "outputs\\bert_postencoder_20260926\\packages\\content_gate",
+      "zip": "outputs\\bert_postencoder_20260926\\packages\\content_gate.zip",
+      "directory_bytes": 24170880,
+      "zip_bytes": 21576531,
+      "zip_uncompressed_bytes": 24170880,
+      "package_sha256": "c2d3264a6cf025dfceb6bbf13951abc4610b58a95d4fd6287482c6e5853533c8",
+      "zip_sha256": "b6e7b7f498f267021915984157ef9723c9e4af5241096a577abfbb0fc0c57042",
+      "package_reload_verified": true,
+      "validation_v4_32": "outputs\\bert_postencoder_20260926\\packages\\content_gate_validation_v4_32.json",
+      "validation_package_reload_verified": true,
+      "validation_accuracy": 0.6291208791208791,
+      "validation_macro_f1": 0.5691583960991063,
+      "validation_missing_mean_accuracy": 0.608029067706487,
+      "official_test_evaluated": false
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "gpu": "NVIDIA GeForce GTX 1660 Ti",
+  "cuda_available": true,
+  "torch_version": "2.8.0+cu128",
+  "cuda_version": "12.8",
+  "precision": "FP32 (autocast disabled; amp_dtype=none)",
+  "seed": 1729,
+  "feature_path": "outputs/teacher_student_v5_20260924/data/train_valid_only_v5.pkl",
+  "splits": {
+    "train": 3395,
+    "valid": 728
+  },
+  "official_test_accessed": false
+}
